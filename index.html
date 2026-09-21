@@ -71,7 +71,7 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid 
 .subject.perigosas{--tone:#dc2626;--tone-soft:#fef2f2}.subject.equip{--tone:#475569;--tone-soft:#f8fafc}
 .subject.acess{--tone:#0284c7;--tone-soft:#f0f9ff}.subject.ova{--tone:#ca8a04;--tone-soft:#fefce8}
 
-.quick{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;margin-top:22px;padding:14px;border-radius:18px;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow)}
+.exam-list{display:grid;gap:8px}.exam-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:13px 14px;box-shadow:var(--shadow)}.exam-card-head{display:flex;align-items:flex-start;justify-content:space-between;gap:8px}.exam-card h4{margin:0;font-size:13px}.exam-meta{margin:4px 0 0;font-size:10px;color:var(--muted)}.exam-fit{margin:9px 0 10px;font-size:11px;line-height:1.35;color:#4b5563}.exam-actions a{text-decoration:none}.quick{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;margin-top:22px;padding:14px;border-radius:18px;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow)}
 .quick h4{margin:0;font-size:13px}.quick p{margin:4px 0 0;color:var(--muted);font-size:10px;line-height:1.35}
 .quick-actions{display:flex;gap:7px;flex-wrap:wrap}
 
@@ -157,7 +157,7 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid 
         <p id="heroText">Sessões curtas, cartões intercalados e revisão ativa — sem excesso de informação na tela.</p>
         <div class="hero-actions">
           <button class="btn primary" id="startDue">▶ Começar revisão</button>
-          <button class="btn secondary" id="openSearch">🔎 Buscar cartão</button>
+          <button class="btn secondary" id="openIdcap">🎯 Treino IDCAP</button>
         </div>
       </div>
     </div>
@@ -199,6 +199,32 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid 
         <button class="btn small" id="export">⬇️ Progresso</button>
       </div>
     </div>
+  </section>
+
+  <section class="screen" id="idcapScreen">
+    <div class="study-head">
+      <button class="btn icon" id="backIdcapHome" aria-label="Voltar">←</button>
+      <div class="study-title"><h2>🎯 Provas IDCAP</h2><p>Corpus portuário + treino derivado</p></div>
+    </div>
+    <div class="hero" style="margin-bottom:14px">
+      <div class="hero-content">
+        <div class="eyebrow">Banca IDCAP</div>
+        <h2 style="font-size:23px">Treine pelo padrão que a banca já usou.</h2>
+        <p>O módulo reúne as provas portuárias encontradas e 80 flashcards autorais derivados dos temas e formatos observados. As questões originais continuam nas fontes externas.</p>
+        <div class="hero-actions">
+          <button class="btn primary" id="startIdcap">▶ Começar 10 cards</button>
+        </div>
+      </div>
+    </div>
+    <div class="stats">
+      <div class="stat"><div class="stat-top"><div class="stat-icon" style="background:#f5f3ff">🎯</div><div><b id="idcapCardCount">0</b><span>flashcards IDCAP</span></div></div></div>
+      <div class="stat"><div class="stat-top"><div class="stat-icon" style="background:#eff6ff">📄</div><div><b id="idcapExamCount">0</b><span>provas no corpus</span></div></div></div>
+      <div class="stat"><div class="stat-top"><div class="stat-icon" style="background:#fff7ed">❓</div><div><b id="idcapQuestionCount">0</b><span>questões no conjunto</span></div></div></div>
+    </div>
+    <div class="section-head"><div><h3>Provas encontradas</h3><p>Abra a prova original na fonte externa.</p></div></div>
+    <div class="exam-list" id="examList"></div>
+    <div class="section-head" style="margin-top:22px"><div><h3>Flashcards derivados</h3><p>Questões originais não são copiadas; o treino transforma os padrões em cartões novos.</p></div></div>
+    <div class="subject-grid" id="idcapTopics"></div>
   </section>
 
   <section class="screen" id="studyScreen">
@@ -276,6 +302,8 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid 
 <div class="toast" id="toast"></div>
 <script>
 let CARDS=[];
+let IDCAP_CARDS=[];
+let IDCAP_EXAMS=[];
 const KEY="ogmo_itajai_flashcards_v1";
 const DAY=86400000;
 let state={};
@@ -312,11 +340,17 @@ async function loadCards(){
   const urls=["cards-01.json","cards-02.json","cards-03.json","cards-04.json"];
   try{
     const parts=await Promise.all(urls.map(async u=>{const r=await fetch(u,{cache:"no-store"});if(!r.ok)throw new Error(u);return r.json()}));
+    const ir=await fetch("idcap.json",{cache:"no-store"});if(!ir.ok)throw new Error("idcap.json");
+    const idcap=await ir.json();
     CARDS=parts.flat().filter(c=>c && c.category);
+    IDCAP_CARDS=idcap.cards||[];
+    IDCAP_EXAMS=idcap.exams||[];
+    CARDS=CARDS.concat(IDCAP_CARDS);
     fillFilterCats();
     renderStats();
     renderSubjects();
     refreshTopicOptions();
+    renderIdcapModule();
     updateHomeText();
   }catch(e){
     $("heroTitle").textContent="Não consegui carregar os cartões.";
@@ -326,16 +360,31 @@ async function loadCards(){
 }
 
 function renderStats(){
-  const total=CARDS.length;
-  const dueN=CARDS.filter(c=>isDue(c.id)).length;
-  const masteredN=CARDS.filter(c=>mastered(c.id)).length;
+  const core=CARDS.filter(c=>c.category!=="IDCAP");
+  const total=core.length;
+  const dueN=core.filter(c=>isDue(c.id)).length;
+  const masteredN=core.filter(c=>mastered(c.id)).length;
   const n=stats.r0+stats.r1+stats.r2;
   $("sTotal").textContent=total;
   $("sMastered").textContent=masteredN;
   $("sAccuracy").textContent=n?Math.round(stats.r2/n*100)+"%":"—";
   $("dueCount").textContent=dueN+(dueN===1?" cartão agora":" cartões agora");
   $("allCount").textContent=total+" cartões";
-  $("wrongCount").textContent=CARDS.filter(c=>(ratings[c.id]?.r0||0)+(ratings[c.id]?.r1||0)>0).length+" cartões marcados";
+  $("wrongCount").textContent=CARDS.filter(c=>c.category!=="IDCAP"&&((ratings[c.id]?.r0||0)+(ratings[c.id]?.r1||0)>0)).length+" cartões marcados";
+}
+
+function renderIdcapModule(){
+  $("idcapCardCount").textContent=IDCAP_CARDS.length;
+  $("idcapExamCount").textContent=IDCAP_EXAMS.length;
+  $("idcapQuestionCount").textContent=IDCAP_EXAMS.reduce((sum,e)=>sum+(e.questions||0),0);
+  $("examList").innerHTML=IDCAP_EXAMS.map(e=>'<article class="exam-card"><div class="exam-card-head"><div><h4>'+e.name+'</h4><div class="exam-meta">'+e.date+' · '+e.questions+' questões</div></div><span class="tag">IDCAP</span></div><div class="exam-fit">'+e.fit+'</div><div class="exam-actions"><a class="btn small" href="'+e.url+'" target="_blank" rel="noopener">Abrir prova ↗</a></div></article>').join("");
+  const topics=[...new Set(IDCAP_CARDS.map(c=>c.topic))];
+  const icons={"Legislação":"⚖️","Conhecimentos Específicos":"⚓","Língua Portuguesa":"📝","Matemática":"➗","Língua Inglesa":"🌎"};
+  $("idcapTopics").innerHTML=topics.map(t=>'<button class="subject esp" data-idcap-topic="'+t.replace(/"/g,"&quot;")+'"><div class="subject-top"><div class="subject-icon">'+(icons[t]||"🎯")+'</div><span class="arrow">→</span></div><h4>'+t+'</h4><span>'+IDCAP_CARDS.filter(c=>c.topic===t).length+' cards</span></button>').join("");
+  $("idcapTopics").querySelectorAll("[data-idcap-topic]").forEach(b=>b.onclick=()=>startIdcapStudy(b.dataset.idcapTopic));
+}
+function startIdcapStudy(topic="all"){
+  startStudy("idcap","IDCAP",topic,"all","",topic==="all"?"Treino IDCAP":"IDCAP · "+topic);
 }
 
 function updateHomeText(){
@@ -374,8 +423,9 @@ function filteredCards(useMode,cat,topic,lev,q){
   let arr=CARDS.filter(c=>(cat==="all"||c.category===cat)&&(topic==="all"||c.topic===topic)&&(lev==="all"||c.level===lev));
   const needle=q.trim().toLowerCase();
   if(needle)arr=arr.filter(c=>(c.question+" "+c.answer+" "+(c.hook||"")+" "+(c.trap||"")+" "+(c.topic||"")).toLowerCase().includes(needle));
-  if(useMode==="due")arr=arr.filter(c=>isDue(c.id));
-  if(useMode==="wrong")arr=arr.filter(c=>(ratings[c.id]?.r0||0)+(ratings[c.id]?.r1||0)>0);
+  if(useMode==="due")arr=arr.filter(c=>c.category!=="IDCAP"&&isDue(c.id));
+  if(useMode==="wrong")arr=arr.filter(c=>c.category!=="IDCAP"&&((ratings[c.id]?.r0||0)+(ratings[c.id]?.r1||0)>0));
+  if(useMode==="idcap")arr=arr.filter(c=>c.category==="IDCAP");
   return arr;
 }
 
@@ -469,9 +519,12 @@ function loadFilterFromSession(){
 }
 
 $("startDue").onclick=()=>startStudy("due");
+$("openIdcap").onclick=()=>showScreen("idcapScreen");
 $("modeDue").onclick=()=>startStudy("due");
 $("modeAll").onclick=()=>startStudy("all");
 $("modeWrong").onclick=()=>startStudy("wrong");
+$("startIdcap").onclick=()=>startIdcapStudy();
+$("backIdcapHome").onclick=()=>showScreen("homeScreen");
 $("backHome").onclick=()=>{showScreen("homeScreen");renderStats();updateHomeText()};
 $("doneHome").onclick=()=>{showScreen("homeScreen");renderStats();updateHomeText()};
 $("doneAgain").onclick=()=>startStudy(lastSession.mode,lastSession.cat,lastSession.topic,lastSession.lev,lastSession.q,sessionTitle);
