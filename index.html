@@ -24,7 +24,7 @@ header{display:flex;justify-content:space-between;gap:12px;align-items:flex-star
 .stat{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:13px 14px;box-shadow:var(--shadow)}
 .stat b{display:block;font-size:20px;margin-bottom:2px}
 .stat span{color:var(--muted);font-size:11px}
-.controls{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:12px;display:grid;gap:10px;box-shadow:var(--shadow)}
+.controls{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:12px;display:grid;gap:10px;box-shadow:var(--shadow)}.study-map{background:#fff;border:1px solid var(--line);border-radius:18px;padding:14px;box-shadow:var(--shadow)}.study-map h3{margin:0 0 4px;font-size:15px}.study-map .sub{margin:0 0 12px;color:var(--muted);font-size:12px}.map-grid{display:grid;gap:8px}.map-group{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fcfdff}.map-head{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:10px 11px}.map-title{font-weight:800;font-size:13px}.map-count{font-size:11px;color:var(--muted)}.map-topics{display:flex;flex-wrap:wrap;gap:6px;padding:0 11px 11px}.topic-chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 9px;font-size:11px;color:var(--text)}.topic-chip:hover{border-color:#9ca3af;background:#f9fafb}.current-filter{font-size:11px;color:var(--muted);padding-top:2px}.loading{color:var(--muted);font-size:13px}
 .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 select,input{border:1px solid var(--line);background:#fff;border-radius:12px;padding:10px 11px;color:var(--text)}
 input{flex:1;min-width:180px}
@@ -86,7 +86,7 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;background:#fff;padding
 <header>
   <div class="brand">
     <h1>⚓ OGMO Itajaí 2026 — Flashcards</h1>
-    <p>Capatazia / Arrumador · revisão ativa · funciona offline</p>
+    <p>Capatazia / Arrumador · revisão ativa · progresso salvo neste navegador</p>
   </div>
   <div class="badge" id="dueBadge">0 para revisar</div>
 </header>
@@ -122,7 +122,14 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;background:#fff;padding
   </div>
   <div class="notice" id="deckInfo"></div>
   <div class="notice">Antes de virar, responda mentalmente. Depois marque <b>Errei</b>, <b>Hesitei</b> ou <b>Lembrei</b>. O app agenda a próxima revisão automaticamente.</div>
+  <div class="current-filter" id="currentFilter">Preparando seu acervo…</div>
 </div>
+
+<section class="study-map">
+  <h3>📚 Trilha por matéria</h3>
+  <p class="sub">Matéria → assunto. Toque em um assunto para abrir somente aqueles cartões.</p>
+  <div class="map-grid" id="studyMap"><div class="loading">Carregando mapa…</div></div>
+</section>
 
 <div class="cardarea">
   <div class="flashcard" id="card">
@@ -163,7 +170,7 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;background:#fff;padding
     <h3>🧠 Como revisar</h3>
     <p>Use <b>Revisar agora</b> para os cartões que estão vencidos. Um cartão difícil volta mais cedo; um cartão que você domina vai para intervalos maiores.</p>
     <p><b>0 Errei</b> → volta em 1 dia.<br><b>1 Hesitei</b> → volta em 3 dias.<br><b>2 Lembrei</b> → avança no ciclo D1 → D3 → D7 → D14 → D30.</p>
-    <p>O progresso fica salvo neste navegador. Use <b>Exportar</b> para guardar uma cópia para guardar uma cópia.</p>
+    <p>O progresso fica salvo neste navegador. Use <b>Exportar</b> para guardar uma cópia.</p>
     <button class="btn primary" id="closeModal">Entendi</button>
   </div>
 </div>
@@ -174,6 +181,7 @@ let CARDS = [];
 async function loadCards() {
   const urls = ["cards-01.json","cards-02.json","cards-03.json","cards-04.json"];
   try {
+    document.getElementById("question").textContent = "Carregando cartões…";
     const parts = await Promise.all(urls.map(async (u) => {
       const r = await fetch(u, {cache:"no-store"});
       if (!r.ok) throw new Error("Falha ao carregar " + u);
@@ -181,14 +189,16 @@ async function loadCards() {
     }));
     CARDS = parts.flat().filter(c => c.category !== "EDITAL");
     fillCats();
+    renderStudyMap();
     renderStats();
     buildQueue();
   } catch (err) {
     document.getElementById("question").textContent = "Não foi possível carregar os cartões.";
     document.getElementById("lvl").textContent = "Atualize a página.";
+    document.getElementById("deckInfo").textContent = "Verifique sua conexão e tente novamente.";
     console.error(err);
   }
-}
+}}
 
 const KEY = "ogmo_itajai_flashcards_v1";
 const DAY = 86400000;
@@ -224,6 +234,9 @@ function buildQueue() {
   queue = arr;
   const info=document.getElementById("deckInfo");
   info.textContent = `${arr.length} cartão${arr.length===1?"":"s"} neste filtro · ${CARDS.length} no acervo`;
+  const catLabel = document.getElementById("cat").selectedOptions[0]?.textContent || "Todas as categorias";
+  const topicLabel = document.getElementById("topic").selectedOptions[0]?.textContent || "Todos os assuntos";
+  document.getElementById("currentFilter").textContent = `Filtro atual: ${catLabel} → ${topicLabel}`;
   idx = Math.min(idx, Math.max(0,queue.length-1));
   render();
 }
@@ -301,6 +314,35 @@ function shuffleQueue() {
   for(let i=queue.length-1;i>0;i--) { const j=Math.floor(Math.random()*(i+1)); [queue[i],queue[j]]=[queue[j],queue[i]]; }
   idx=0; render();
 }
+function renderStudyMap() {
+  const root = document.getElementById("studyMap");
+  const order = ["LEGISLACAO","NR29","NR01","NR06","NR35","ESPECIFICOS","ITAJAÍ","PORTUGUES","INGLES","CARGAS","CARGAS PERIGOSAS","EQUIPAMENTOS","ACESSORIOS","OVA/DESOVA"];
+  const labels = {"LEGISLACAO":"Legislação Portuária","NR29":"NR-29","NR01":"NR-01","NR06":"NR-06","NR35":"NR-35","ESPECIFICOS":"Conhecimentos Específicos","ITAJAÍ":"Itajaí / Porto","PORTUGUES":"Língua Portuguesa","INGLES":"Língua Inglesa","CARGAS":"Cargas","CARGAS PERIGOSAS":"Cargas Perigosas","EQUIPAMENTOS":"Equipamentos","ACESSORIOS":"Acessórios","OVA/DESOVA":"Ova / Desova"};
+  const groups = {};
+  CARDS.forEach(c => {
+    const cat=c.category, topic=c.topic||"Geral";
+    if(!groups[cat]) groups[cat]={count:0,topics:{}};
+    groups[cat].count++;
+    groups[cat].topics[topic]=(groups[cat].topics[topic]||0)+1;
+  });
+  root.innerHTML = order.filter(cat=>groups[cat]).map(cat => {
+    const topics = Object.entries(groups[cat].topics).sort((a,b)=>a[0].localeCompare(b[0],"pt-BR"));
+    return '<div class="map-group"><div class="map-head"><span class="map-title">'+(labels[cat]||cat)+'</span><span class="map-count">'+groups[cat].count+' cartões</span></div><div class="map-topics">'+topics.map(([topic,count]) => '<button class="topic-chip" data-map-cat="'+cat.replace(/"/g,"&quot;")+'" data-map-topic="'+String(topic).replace(/"/g,"&quot;")+'">'+topic+' · '+count+'</button>').join("")+'</div></div>';
+  }).join("");
+  root.querySelectorAll("[data-map-cat]").forEach(btn => btn.addEventListener("click", () => {
+    const cat = btn.dataset.mapCat;
+    const topic = btn.dataset.mapTopic;
+    document.getElementById("cat").value=cat;
+    fillTopics();
+    document.getElementById("topic").value=topic;
+    mode="all";
+    document.querySelectorAll("#modebar .btn").forEach(x=>x.classList.toggle("active",x.dataset.mode==="all"));
+    idx=0;
+    buildQueue();
+    document.querySelector(".cardarea").scrollIntoView({behavior:"smooth",block:"start"});
+  }));
+}
+
 function fillCats() {
   const el=document.getElementById("cat");
   const cats=[...new Set(CARDS.map(c=>c.category))];
@@ -328,7 +370,7 @@ document.getElementById("cat").onchange=()=>{idx=0;fillTopics();buildQueue()};
 document.getElementById("topic").onchange=()=>{idx=0;buildQueue()};
 document.getElementById("level").onchange=()=>{idx=0;buildQueue()};
 document.getElementById("search").oninput=()=>{idx=0;buildQueue()};
-document.getElementById("ten").onclick=()=>{ if(queue.length>10) queue=queue.sort(()=>Math.random()-.5).slice(0,10); idx=0; render(); };
+document.getElementById("ten").onclick=()=>{ if(queue.length>10) queue=[...queue].sort(()=>Math.random()-.5).slice(0,10); idx=0; render(); };
 document.addEventListener("keydown",e=>{
   if(e.target.tagName==="INPUT" || e.target.tagName==="SELECT") return;
   if(e.key===" " || e.key==="Enter") { e.preventDefault(); flip(); }
