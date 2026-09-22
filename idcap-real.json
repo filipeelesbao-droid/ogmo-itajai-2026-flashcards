@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "note": "Somente metadados de questões reais de provas anteriores da IDCAP. O texto integral e as alternativas ficam na fonte vinculada.",
+  "filter": "Apenas questões verificadas como relacionadas ao conteúdo do edital do OGMO Itajaí 2026.",
+  "questions": [
+    {
+      "id": "Q3994813",
+      "exam": "OGMOs-PE 2025 — Capatazia",
+      "date": "21/09/2025",
+      "discipline": "NR-01",
+      "scope": "Legislação Portuária",
+      "topic": "NR-01 — deveres do empregador",
+      "questionUrl": "https://www.qconcursos.com/questoes-de-concursos/questoes/8e843583-38",
+      "sourceName": "QConcursos"
+    },
+    {
+      "id": "Q3994814",
+      "exam": "OGMOs-PE 2025 — Capatazia",
+      "date": "21/09/2025",
+      "discipline": "NR-35",
+      "scope": "Legislação Portuária",
+      "topic": "NR-35 — campo de aplicação",
+      "questionUrl": "https://www.qconcursos.com/questoes-de-concursos/questoes/8e86dadc-38",
+      "sourceName": "QConcursos"
+    },
+    {
+      "id": "Q3994815",
+      "exam": "OGMOs-PE 2025 — Capatazia",
+      "date": "21/09/2025",
+      "discipline": "Cargas perigosas",
+      "scope": "Conhecimentos Específicos",
+      "topic": "Conceito de carga perigosa",
+      "questionUrl": "https://www.qconcursos.com/questoes-de-concursos/questoes/8e8972b4-38",
+      "sourceName": "QConcursos"
+    },
+    {
+      "id": "Q3994816",
+      "exam": "OGMOs-PE 2025 — Capatazia",
+      "date": "21/09/2025",
+      "discipline": "NR-06",
+      "scope": "Legislação Portuária",
+      "topic": "NR-06 — campo de aplicação",
+      "questionUrl": "https://www.qconcursos.com/questoes-de-concursos/questoes/8e8c0ed8-38",
+      "sourceName": "QConcursos"
+    },
+    {
+      "id": "Q3994817",
+      "exam": "OGMOs-PE 2025 — Capatazia",
+      "date": "21/09/2025",
+      "discipline": "Equipamentos",
+      "scope": "Conhecimentos Específicos",
+      "topic": "Guindaste — movimentação de cargas",
+      "questionUrl": "https://www.qconcursos.com/questoes-de-concursos/questoes/8e8ec9e8-38",
+      "sourceName": "QConcursos"
+    },
+    {
+      "id": "Q3994818",
+      "exam": "OGMOs-PE 2025 — Capatazia",
+      "date": "21/09/2025",
+      "discipline": "NR-29",
+      "scope": "Legislação Portuária",
+      "topic": "NR-29 — terminais retroportuários",
+      "questionUrl": "https://www.qconcursos.com/questoes-de-concursos/questoes/8e9167a3-38",
+      "sourceName": "QConcursos"
+    },
+    {
+      "id": "Q3993579",
+      "exam": "OGMORJ 2025 — Capatazia",
+      "date": "27/07/2025",
+      "discipline": "Matemática",
+      "scope": "Matemática",
+      "topic": "MMC / periodicidade",
+      "questionUrl": "https://www.qconcursos.com/questoes-de-concursos/questoes/e38588b9-38",
+      "sourceName": "QConcursos"
+    },
+    {
+      "id": "Q3994773",
+      "exam": "OGMOs-PE 2025 — Capatazia",
+      "date": "21/09/2025",
+      "discipline": "Língua Portuguesa",
+      "scope": "Língua Portuguesa",
+      "topic": "Acentuação",
+      "questionUrl": "https://www.qconcursos.com/questoes-de-concursos/questoes/8e18a041-38",
+      "sourceName": "QConcursos"
+    },
+    {
+      "id": "Q3994774",
+      "exam": "OGMOs-PE 2025 — Capatazia",
+      "date": "21/09/2025",
+      "discipline": "Língua Portuguesa",
+      "scope": "Língua Portuguesa",
+      "topic": "Pontuação",
+      "questionUrl": "https://www.qconcursos.com/questoes-de-concursos/questoes/8e1bf56c-38",
+      "sourceName": "QConcursos"
+    },
+    {
+      "id": "Q3354537",
+      "exam": "OGMO Paranaguá 2024 — Arrumador",
+      "date": "16/11/2024",
+      "discipline": "Língua Portuguesa",
+      "scope": "Língua Portuguesa",
+      "topic": "Interpretação de texto",
+      "questionUrl": "https://www.qconcursos.com/questoes-de-concursos/questoes/296fefe4-32",
+      "sourceName": "QConcursos"
+    }
+  ]
+}
