@@ -67,6 +67,9 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid 
 .sheet-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:14px}.sheet h3{margin:0;font-size:17px}.field{display:grid;gap:6px;margin-bottom:11px}.field label{font-size:10px;font-weight:900;color:#4b5563;text-transform:uppercase;letter-spacing:.06em}
 .field input,.field select{width:100%;border:1px solid var(--line);background:#fff;border-radius:13px;padding:12px}.sheet-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:15px;flex-wrap:wrap}
 .toast{position:fixed;left:50%;bottom:18px;transform:translateX(-50%) translateY(20px);background:#171b2f;color:#fff;padding:10px 13px;border-radius:999px;font-size:11px;font-weight:800;opacity:0;pointer-events:none;transition:.22s;z-index:60}.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.idcap-nav{border:1px solid #c7d2fe;background:#eef2ff;color:#3730a3;font-weight:900;padding:8px 11px;border-radius:999px;font-size:11px;white-space:nowrap}
+.idcap-wrap{max-width:900px;margin:0 auto}.idcap-hero{background:#fff;border:1px solid var(--line);border-radius:22px;padding:17px;box-shadow:var(--shadow);margin-bottom:14px}.idcap-hero h2{margin:0 0 6px;font-size:20px}.idcap-hero p{margin:0;color:var(--muted);font-size:11px;line-height:1.45}.idcap-badge{display:inline-flex;padding:6px 8px;border-radius:999px;background:#eef2ff;color:#3730a3;font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.05em;margin-bottom:9px}.idcap-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:0 0 13px}.idcap-stat{background:#fff;border:1px solid var(--line);border-radius:15px;padding:10px 12px;box-shadow:var(--shadow)}.idcap-stat b{display:block;font-size:18px}.idcap-stat span{font-size:10px;color:var(--muted)}.idcap-toolbar{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:8px;margin-bottom:12px}.idcap-toolbar select{width:100%;border:1px solid var(--line);background:#fff;border-radius:13px;padding:11px 12px;font-size:11px}.idcap-next{width:100%;margin-bottom:13px;border:0;background:#171b2f;color:#fff;border-radius:15px;padding:13px;font-weight:900}.idcap-list{display:grid;gap:9px}.idcap-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:13px 14px;box-shadow:var(--shadow)}.idcap-card.done{opacity:.72}.idcap-card-top{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}.idcap-meta{display:flex;gap:6px;flex-wrap:wrap}.idcap-chip{display:inline-flex;align-items:center;padding:6px 8px;border-radius:999px;background:#f2f4f7;color:#4b5563;font-size:9px;font-weight:900}.idcap-chip.scope{background:#eff6ff;color:#1d4ed8}.idcap-chip.done{background:#f0fdf4;color:#15803d}.idcap-card h3{font-size:13px;line-height:1.35;margin:10px 0 5px}.idcap-card p{margin:0;color:var(--muted);font-size:10px;line-height:1.4}.idcap-actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:11px}.idcap-actions a,.idcap-actions button{border:1px solid var(--line);background:#fff;color:var(--text);border-radius:12px;padding:9px 11px;font-size:10px;font-weight:900;text-decoration:none}.idcap-actions a{background:#eef2ff;color:#3730a3;border-color:#c7d2fe}.idcap-actions .mark{background:#f9fafb}.idcap-empty{background:#fff;border:1px dashed #cbd5e1;border-radius:18px;padding:22px;text-align:center;color:var(--muted);font-size:11px;line-height:1.45}@media(max-width:700px){.idcap-toolbar{grid-template-columns:1fr}.idcap-stats{grid-template-columns:repeat(3,1fr)}}
+
 @media(max-width:800px){.subject-grid{grid-template-columns:repeat(2,1fr)}.mode-grid{grid-template-columns:1fr}}
 @media(max-width:560px){
   .app{padding:14px 13px 72px}.brand h1{font-size:17px}.logo{width:38px;height:38px}.exam-pill{font-size:10px;padding:7px 9px}
@@ -78,7 +81,7 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid 
   <section class="screen active" id="homeScreen">
     <div class="topbar">
       <div class="brand"><div class="logo">⚓</div><div><h1>OGMO Itajaí 2026</h1><p>Capatazia / Arrumador</p></div></div>
-      <div class="exam-pill">FOCO NO EDITAL</div>
+      <button class="exam-pill idcap-nav" id="openIdcap">🎯 Questões IDCAP</button>
     </div>
 
     <div class="hero">
@@ -112,6 +115,29 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid 
     <div class="quick">
       <div><h4>⚡ Atalhos rápidos</h4><p>Pesquise um assunto, ajuste o nível ou abra um tópico específico.</p></div>
       <div class="quick-actions"><button class="btn small" id="openFilter2">🔧 Filtros</button><button class="btn small" id="export">⬇️ Progresso</button><button class="btn small" id="importBtn">⬆️ Importar</button></div>
+    </div>
+  </section>
+
+  <section class="screen" id="idcapScreen">
+    <div class="idcap-wrap">
+      <div class="study-head"><button class="btn icon" id="backIdcap" aria-label="Voltar">←</button><div class="study-title"><h2>🎯 Questões IDCAP</h2><p>Somente questões reais de provas anteriores</p></div></div>
+      <div class="idcap-hero">
+        <div class="idcap-badge">Filtro do seu edital</div>
+        <h2>Resolva uma por vez, no seu ritmo.</h2>
+        <p>Esta aba não cria questões novas. Cada item abaixo é uma questão real de prova anterior da IDCAP; toque em “Abrir questão” para ver o enunciado e as alternativas na fonte.</p>
+      </div>
+      <div class="idcap-stats">
+        <div class="idcap-stat"><b id="idcapTotal">0</b><span>cadastradas</span></div>
+        <div class="idcap-stat"><b id="idcapPending">0</b><span>não resolvidas</span></div>
+        <div class="idcap-stat"><b id="idcapDone">0</b><span>resolvidas</span></div>
+      </div>
+      <div class="idcap-toolbar">
+        <select id="idcapExam"><option value="all">Todas as provas</option></select>
+        <select id="idcapScope"><option value="all">Todas as disciplinas</option><option value="Legislação Portuária">Legislação Portuária</option><option value="Conhecimentos Específicos">Conhecimentos Específicos</option><option value="Língua Portuguesa">Língua Portuguesa</option><option value="Matemática">Matemática</option></select>
+        <select id="idcapStatus"><option value="all">Todas</option><option value="pending">Não resolvidas</option><option value="done">Resolvidas</option></select>
+      </div>
+      <button class="idcap-next" id="idcapNext">▶ Abrir próxima não resolvida</button>
+      <div class="idcap-list" id="idcapList"></div>
     </div>
   </section>
 
@@ -179,6 +205,48 @@ const labels={"LEGISLACAO":"Legislação Portuária","NR29":"NR-29","NR01":"NR-0
 const subjectMeta={"LEGISLACAO":["leg","⚖️"],"NR29":["nr29","🦺"],"NR01":["nr01","🧭"],"NR06":["nr06","⛑️"],"NR35":["nr35","🧗"],"ESPECIFICOS":["esp","⚓"],"ITAJAÍ":["itajai","📍"],"PORTUGUES":["pt","📝"],"INGLES":["en","🌎"],"CARGAS":["cargas","📦"],"CARGAS PERIGOSAS":["perigosas","☢️"],"EQUIPAMENTOS":["equip","🏗️"],"ACESSORIOS":["acess","🔗"],"OVA/DESOVA":["ova","🚢"]};
 const $=id=>document.getElementById(id);
 
+let IDCAP_REAL=[];
+const IDCAP_KEY="ogmo_itajai_idcap_real_v1";
+let idcapDone={};
+try{idcapDone=JSON.parse(localStorage.getItem(IDCAP_KEY)||"{}")}catch{}
+function saveIdcap(){localStorage.setItem(IDCAP_KEY,JSON.stringify(idcapDone))}
+async function loadIdcapReal(){
+  try{
+    const r=await fetch("idcap-real.json",{cache:"no-store"});
+    if(!r.ok)throw new Error("idcap-real.json");
+    IDCAP_REAL=await r.json();
+    fillIdcapExams();
+    renderIdcap();
+  }catch(e){
+    IDCAP_REAL=[];
+    $("idcapList").innerHTML='<div class="idcap-empty">Não consegui carregar o banco IDCAP agora. Atualize a página para tentar novamente.</div>';
+    console.error(e);
+  }
+}
+function fillIdcapExams(){
+  const names=[...new Set(IDCAP_REAL.map(x=>x.exam))].sort((a,b)=>a.localeCompare(b,"pt-BR"));
+  $("idcapExam").innerHTML='<option value="all">Todas as provas</option>'+names.map(x=>'<option value="'+x.replace(/"/g,"&quot;")+'">'+x+'</option>').join("");
+}
+function renderIdcap(){
+  const exam=$("idcapExam").value,scope=$("idcapScope").value,status=$("idcapStatus").value;
+  const total=IDCAP_REAL.length,doneN=IDCAP_REAL.filter(x=>!!idcapDone[x.id]).length;
+  $("idcapTotal").textContent=total;$("idcapDone").textContent=doneN;$("idcapPending").textContent=total-doneN;
+  const arr=IDCAP_REAL.filter(x=>(exam==="all"||x.exam===exam)&&(scope==="all"||x.scope===scope)&&(status==="all"||(status==="done"?!!idcapDone[x.id]:!idcapDone[x.id])));
+  $("idcapList").innerHTML=arr.length?arr.map(renderIdcapCard).join(""):'<div class="idcap-empty">Nenhuma questão encontrada com estes filtros.</div>';
+  document.querySelectorAll("[data-idcap-done]").forEach(b=>b.onclick=()=>toggleIdcapDone(b.dataset.idcapDone));
+}
+function renderIdcapCard(x){
+  const done=!!idcapDone[x.id];
+  const safe=(s)=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  return '<article class="idcap-card '+(done?"done":"")+'"><div class="idcap-card-top"><div class="idcap-meta"><span class="idcap-chip">'+safe(x.id)+'</span><span class="idcap-chip">'+safe(x.date)+'</span><span class="idcap-chip scope">'+safe(x.scope)+'</span>'+(done?'<span class="idcap-chip done">✓ Resolvida</span>':"")+'</div></div><h3>'+safe(x.exam)+' — '+safe(x.topic)+'</h3><p>'+safe(x.discipline)+' · questão real da prova anterior.</p><div class="idcap-actions"><a href="'+x.questionUrl+'" target="_blank" rel="noopener noreferrer">Abrir questão ↗</a><button class="mark" data-idcap-done="'+safe(x.id)+'">'+(done?"↩ Marcar como não resolvida":"✓ Marcar como resolvida")+'</button></div></article>';
+}
+function toggleIdcapDone(id){if(idcapDone[id])delete idcapDone[id];else idcapDone[id]=true;saveIdcap();renderIdcap();toast(idcapDone[id]?"Questão marcada como resolvida":"Questão reaberta")}
+function openNextIdcap(){
+  const exam=$("idcapExam").value,scope=$("idcapScope").value;
+  const next=IDCAP_REAL.find(x=>(exam==="all"||x.exam===exam)&&(scope==="all"||x.scope===scope)&&!idcapDone[x.id]);
+  if(!next){toast("Não há questões pendentes nesse filtro.");return}
+  window.open(next.questionUrl,"_blank","noopener,noreferrer");
+}
 function save(){localStorage.setItem(KEY,JSON.stringify({ratings,due,stats}));renderStats()}
 function isDue(id){return !due[id]||due[id]<=Date.now()}
 function mastered(id){return (ratings[id]||{stage:0}).stage>=5}
@@ -320,6 +388,13 @@ function loadFilterFromSession(){
   $("filterCat").value=lastSession.cat||"all";refreshTopicOptions();$("filterTopic").value=lastSession.topic||"all";$("filterLevel").value=lastSession.lev||"all";$("filterSearch").value=lastSession.q||"";
 }
 
+$("openIdcap").onclick=()=>{showScreen("idcapScreen");renderIdcap()};
+$("backIdcap").onclick=()=>{showScreen("homeScreen");renderStats();updateHomeText()};
+$("idcapExam").onchange=renderIdcap;
+$("idcapScope").onchange=renderIdcap;
+$("idcapStatus").onchange=renderIdcap;
+$("idcapNext").onclick=openNextIdcap;
+
 $("startDue").onclick=()=>startStudy("due");
 $("modeDue").onclick=()=>startStudy("due");
 $("modeAll").onclick=()=>startStudy("all");
@@ -366,5 +441,5 @@ document.addEventListener("keydown",e=>{
   else if(e.key==="3"&&$("card").classList.contains("flipped"))rate(2)
 });
 document.querySelectorAll(".overlay").forEach(o=>o.addEventListener("click",e=>{if(e.target===o)o.classList.remove("show")}));
-loadCards();
+loadCards();loadIdcapReal();
 </script></body></html>
