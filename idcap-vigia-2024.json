@@ -1,0 +1,1043 @@
+{
+  "version": 1,
+  "exam": "OGMO Paranaguá 2024 — Vigia",
+  "count": 33,
+  "contexts": {
+    "VIGIA-PT": "O texto seguinte servirá de base para responder às questões de 1 a 8. Qual é o alimento mais saudável do mundo? Nutricionistas respondem Pergunta divide opinião entre especialistas, mas ingredientes como ovo, abacate e leite materno são listados como extremamente benéficos Quando pensamos em comidas saudáveis, a primeira coisa que vem na cabeça são alimentos com baixa quantidade de calorias. Opções de frutas, legumes e verduras dividem as opiniões de nutricionistas, e a pergunta \"Qual o alimento mais saudável do mundo?\" não possui consenso entre especialistas, nem de perto. Segundo a nutricionista Michele Abreu, o alimento mais saudável e completo do mundo é o leite materno. Porém, para Larissa Monteiro, pós-graduanda em nutrição materno infantil, o leite só pode ser considerado o principal alimento para crianças de até 6 meses de vida. \"Este é o único alimento possível para eles, pois é completo e dispensa qualquer suplemento, até mesmo de água\", explica. Entretanto, Larissa explica que a comida deixa de suprir as necessidades do organismo após o sexto mês, deixando de ser suficiente e, por isso, ela não o considera o mais saudável. Na opinião de Amanda Maffei, também nutricionista, o abacate pode ser o alimento mais saudável do mundo, pois é repleto em compostos bioativos. \"Rico em vitamina, A, C, E, B6, ferro e magnésio, a fruta possui gorduras consideradas boas e que ajudam a nutrir a nossa microbiota intestinal. O abacate também é um grande aliado para melhorar o perfil de alto colesterol e açúcar no sangue\", explica a especialista. Michele também acredita que o ovo possa ser incluído nesta lista, pois ele é uma reserva energética de vitaminas e minerais e que pode, inclusive, garantir o crescimento e desenvolvimento de um filhote. Os ovos são um dos alimentos mais consumidos no mundo, e estão presente diariamente no cardápio do brasileiro, sendo ótimos para prevenção de diabetes e doenças cardiovasculares, tal como diminuição de risco de osteoporose e envelhecimento precoce. Há vários alimentos extremamente benéficos para a saúde, mas as especialistas concordam que nenhum ingrediente, por si só, satisfaz todas as necessidades do organismo, sendo o equilíbrio de grupos alimentares a melhor opção para uma vida saudável. Michele explica que todas as opções citadas não são insubstituíveis, então, caso não goste do ovo, por exemplo, ou tenha intolerância, existem outros alimentos com cargas nutricionais equivalentes para poder substituí-lo. Para Larissa, uma alimentação saudável vai muito além do que a lista de ingredientes e seus nutrientes, e de sua forma de preparo, tendo outros fatores para serem levados em consideração de acordo com cada pessoa. A nutricionista explica que a alimentação saudável precisa ser humanizada, respeitando situações econômicas da família, tal como heranças familiares e comfort food dentro de um equilíbrio. \"Não faz sentido termos restrições que não nos fazem felizes. Se você tem uma receita que é herança da sua avó, por exemplo, e ela te tras felicidade e aconxego, este também pode ser considerado um alimento saudável dentro do contexto, pois os fatores emocionais também devem ser considerados dentro do equilíbrio alimentar para pessoas saudáveis\", explica Larissa. (https://receitas.band.uol.com.br/noticias/qual-e-o-alimento-mais-sauda vel-do-mundo-nutricionistas-respondem-16461825 adaptado)",
+    "VIGIA-EN": "O texto seguinte servirá de base para responder às questões de 17 a 21. Manufacturing dips as container outlook slides The NEOI fell to 48.9 in August from 49.6 in July, indicating deteriorating trade conditions for the third consecutive month. Traded goods slowed in both developed and emerging markets, but India maintained a modest growth in goods exports during August, the last month for which figures are available. In addition, the global PMI has shown a contraction of manufacturing, signalling a further deterioration in cargo levels in the immediate future. \"China's goods exports fell for the first time in 2024, signalling a broader decline in manufacturing as the year progresses,\" said global freight forwarder Dimerco. Headquartered in Taiwan, the Taipei-listed forwarder said that the Federal Reserve's recent interest rate cut may revive global goods trade. August trading in the US continued to grow amid concerns about a US East Coast strike, and a November election that could see major import tariffs imposed on goods, said Dimerco. \"The early peak season suggests an earlier-than-usual start to the slow season, with expected declines in handling volume from September to December, projected at 2.31m, 2.08m, 1.92m, and 1.89m teu, respectively. If these forecasts hold, total port volume for 2024 could reach 24.98m teu, a 12% increase from 2023,\" said Alvin Fuh, VP - ocean freight at Dimerco Express Group. Dynamar analyst Darron Wadey, said: \"Approaching 470 vessels bringing around 3.2m teu in capacity are expected to be delivered by the end of 2024.\" That massive increase in capacity, and the fact that much of this increase is for larger sized vessels, means that any correction in freight rates should have started up to a year ago, according to Wadey. \"It is only the happenstance of the Red Sea and US East Coast situations that have, artificially, buoyed the markets. When the markets do correct therefore, the falls will only be more dramatic because the inevitable has been delayed whilst the stream of new ships coming online continues,\" said Wadey. Drewry Shipping Consultants' analysis shows that blank sailings are expected to increase between 9 September and 7 October with an additional 53 blanked sailings, totalling 90 for the period. Some 67% of these cancelled services were on the Pacific eastbound, while a further 21% on the Asia to Europe trades and 12% on the Atlantic. Even with these cancelled services, rates are continuing to fall on all the major trades, according to Dimerco. New entrants are said to be another element to failure of lines to maintain rate levels. \"While the three major alliances are increasing blank sailings, several individual carriers have deployed 11 extra vessels for Europe WB and 14 for TPEB to handle the expected cargo surge before China's Golden Week. However, the anticipated pre-October 1 cargo rush in China did not materialise this year, leaving no backlogs or rollover cargo for these extra loaders to transport,\" said Dimerco's monthly analysis. Rebalancing trade can only be achieved through the long-term and steady growth of trade, said Wadey, combined with \"a strategic rather than knee-jerk ship ordering policy\". These required shifts are generational, he said, \"in the short term, political events in the US might lead to an end-2024 rush for cargoes again... but then where does that leave 2025 and beyond?\" Drewry's WCI index fell a further 7% this week, closing at $3,691/feu. https://www.seatrade-maritime.com/containers/manufacturing-dips-as-c ontainer-outlook-slides"
+  },
+  "questions": [
+    {
+      "id": "IDCAP-VIGIA-2024-Q01",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 1,
+      "discipline": "Língua Portuguesa",
+      "scope": "Língua Portuguesa",
+      "topic": "Questão real de Língua Portuguesa",
+      "stem": "Identifique a alternativa em que o trecho, retirado do texto, apresenta 2 erros ortográficos:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "\"...e ela te tras felicidade e aconxego, este também pode ser considerado um alimento saudável dentro do contexto.\""
+        },
+        {
+          "letter": "B",
+          "text": "\"A nutricionista explica que a alimentação saudável precisa ser humanizada...\""
+        },
+        {
+          "letter": "C",
+          "text": "\"Quando pensamos em comidas saudáveis, a primeira coisa que vem na cabeça...\""
+        },
+        {
+          "letter": "D",
+          "text": "\"Não faz sentido termos restrições que não nos fazem felizes.\""
+        }
+      ],
+      "correct": "A",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "VIGIA-PT"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q02",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 2,
+      "discipline": "Língua Portuguesa",
+      "scope": "Língua Portuguesa",
+      "topic": "Questão real de Língua Portuguesa",
+      "stem": "Com base nas informações obtidas na leitura do texto, qual o consenso entre os especialistas em relação ao alimento mais saudável do mundo:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "O leite materno é o alimento mais saudável e completo do mundo."
+        },
+        {
+          "letter": "B",
+          "text": "O ovo é considerado o alimento mais saudável, pois ele é uma reserva energética de vitaminas e minerais e que pode, inclusive, garantir o crescimento e desenvolvimento de um filhote."
+        },
+        {
+          "letter": "C",
+          "text": "O abacate é o alimento mais saudável, pois é repleto em compostos bioativos."
+        },
+        {
+          "letter": "D",
+          "text": "Não há consenso entre especialistas em relação ao alimento mais saudável."
+        }
+      ],
+      "correct": "D",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "VIGIA-PT"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q03",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 3,
+      "discipline": "Língua Portuguesa",
+      "scope": "Língua Portuguesa",
+      "topic": "Questão real de Língua Portuguesa",
+      "stem": "\"Michele explica que todas as opções citadas não são insubstituíveis...\" Os verbos destacados estão no tempo e modo do:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "presente do indicativo."
+        },
+        {
+          "letter": "B",
+          "text": "pretérito imperfeito do subjuntivo."
+        },
+        {
+          "letter": "C",
+          "text": "presente do subjuntivo."
+        },
+        {
+          "letter": "D",
+          "text": "pretérito perfeito do indicativo. <PARSED TEXT FOR PAGE: 4 / 12>"
+        }
+      ],
+      "correct": "A",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "VIGIA-PT"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q04",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 4,
+      "discipline": "Língua Portuguesa",
+      "scope": "Língua Portuguesa",
+      "topic": "Questão real de Língua Portuguesa",
+      "stem": "\"Este é o único alimento possível para eles, pois é completo e dispensa qualquer suplemento, até mesmo de água\". O vocábulo 'dispensa' é parônimo de 'despensa'. Identifique a alternativa em que o vocábulo 'dispensa' foi empregado de forma INCORRETA:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "\"O trabalhador ocupava o cargo de gerente e foi dispensado pela empresa por administrar comércio próprio.\""
+        },
+        {
+          "letter": "B",
+          "text": "\"A simplicidade dispensa elogios.\""
+        },
+        {
+          "letter": "C",
+          "text": "\"A dispensa da cozinha estava cheia de ingredientes frescos e organizados.\""
+        },
+        {
+          "letter": "D",
+          "text": "\"Ele pediu a dispensa das aulas por motivos de saúde.\""
+        }
+      ],
+      "correct": "C",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "VIGIA-PT"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q05",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 5,
+      "discipline": "Língua Portuguesa",
+      "scope": "Língua Portuguesa",
+      "topic": "Questão real de Língua Portuguesa",
+      "stem": "\"...este também pode ser considerado um alimento saudável dentro do contexto, pois os fatores emocionais também devem ser considerados dentro do equilíbrio alimentar para pessoas saudáveis\". Em relação à concordância verbal e nominal do trecho acima, analise a afirmativa CORRETA:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A expressão \"devem ser\" está flexionado no plural para concordar com o vocábulo 'equilíbrio'."
+        },
+        {
+          "letter": "B",
+          "text": "Os adjetivos 'considerados' e 'emocionais' caracterizam o substantivo 'fatores'."
+        },
+        {
+          "letter": "C",
+          "text": "O adjetivo 'saudáveis' está caracterizando 'alimentos'."
+        },
+        {
+          "letter": "D",
+          "text": "A expressão 'pode ser' está concordando com o vocábulo' contexto."
+        }
+      ],
+      "correct": "B",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "VIGIA-PT"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q06",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 6,
+      "discipline": "Língua Portuguesa",
+      "scope": "Língua Portuguesa",
+      "topic": "Questão real de Língua Portuguesa",
+      "stem": "\"Michele explica que todas as opções citadas não são insubstituíveis, então, caso não goste do ovo, por exemplo, ou tenha intolerância, existem outros alimentos com cargas nutricionais equivalentes para poder substituí-lo.\" A forma 'LO' do pronome oblíquo átono, está substituindo qual palavra?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "outros."
+        },
+        {
+          "letter": "B",
+          "text": "opções."
+        },
+        {
+          "letter": "C",
+          "text": "ovo."
+        },
+        {
+          "letter": "D",
+          "text": "alimentos."
+        }
+      ],
+      "correct": "C",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "VIGIA-PT"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q07",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 7,
+      "discipline": "Língua Portuguesa",
+      "scope": "Língua Portuguesa",
+      "topic": "Questão real de Língua Portuguesa",
+      "stem": "O trecho que apresenta as palavras destacadas classificadas quanto ao número de sílabas em: polissílaba, trissílaba e dissílaba, respectivamente é:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "\"Se você tem uma receita que é herança da sua avó.\""
+        },
+        {
+          "letter": "B",
+          "text": "\"Para Larissa, uma alimentação saudáve l vai muito além do que a lista de ingredientes e seus nutrientes...\""
+        },
+        {
+          "letter": "C",
+          "text": "\"Pergunta divide opinião entre especialistas , mas ingredientes como ovo.\""
+        },
+        {
+          "letter": "D",
+          "text": "\" Não faz sentido termos restriçõe s que não nos fazem felizes.\""
+        }
+      ],
+      "correct": "B",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "VIGIA-PT"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q08",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 8,
+      "discipline": "Língua Portuguesa",
+      "scope": "Língua Portuguesa",
+      "topic": "Questão real de Língua Portuguesa",
+      "stem": "\"O abacate também é um grande aliado para melhorar o perfil de alto colesterol e açúcar no sangue, explica a especialista.\" O vocábulo 'saudável' está acentuado corretamente. identifique a alternativa em que os vocábulos também estão acentuados CORRETAMENTE:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "heróico, paciência, árvore."
+        },
+        {
+          "letter": "B",
+          "text": "juíz, estática, fórum."
+        },
+        {
+          "letter": "C",
+          "text": "mórbido, república, juízes."
+        },
+        {
+          "letter": "D",
+          "text": "prótons, idéia, espátula. Matemática"
+        }
+      ],
+      "correct": "C",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "VIGIA-PT"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q09",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 9,
+      "discipline": "Matemática",
+      "scope": "Matemática",
+      "topic": "Questão real de Matemática",
+      "stem": "Na cerimônia de encerramento do ano letivo de uma escola, a coordenadora pedagógica precisa organizar os assentos para os pais e convidados dos alunos. O número total de convidados é menor que 200. Eles podem ser acomodados em fileiras de 8 cadeiras ou em fileiras de 9 cadeiras, conforme a disposição do espaço. Em ambos os casos, são necessárias mais de 15 fileiras para acomodar todos os convidados. Qual a soma dos algarismos que representa o número total de convidados?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "9."
+        },
+        {
+          "letter": "B",
+          "text": "8."
+        },
+        {
+          "letter": "C",
+          "text": "10."
+        },
+        {
+          "letter": "D",
+          "text": "12."
+        }
+      ],
+      "correct": "A",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q10",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 10,
+      "discipline": "Matemática",
+      "scope": "Matemática",
+      "topic": "Questão real de Matemática",
+      "stem": "Dona Maria, que trabalha com artesanato, tem como tarefa finalizar uma peça de crochê para uma encomenda. Observou-se que, em trabalhos anteriores, o processo de confecção integral da peça, desde o início até estar pronta, demanda 5.400 segundos. Considerando que a entrega da peça foi combinada para exatamente às 16 horas e 20 minutos, a que horas Dona <PARSED TEXT FOR PAGE: 5 / 12> Maria deve começar a preparar o crochê para garantir que esteja pronto no horário combinado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "14 horas e 25 minutos."
+        },
+        {
+          "letter": "B",
+          "text": "14 horas e 50 minutos."
+        },
+        {
+          "letter": "C",
+          "text": "14 horas e 30 minutos."
+        },
+        {
+          "letter": "D",
+          "text": "14 horas e 20 minutos."
+        }
+      ],
+      "correct": "B",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q11",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 11,
+      "discipline": "Matemática",
+      "scope": "Matemática",
+      "topic": "Questão real de Matemática",
+      "stem": "Ana comprou uma bicicleta de presente para o Dia das Crianças, que custava R$600,00. Ao pagar à vista, ela recebeu um desconto, e o total da compra ficou em R$552,00. Qual foi a porcentagem de desconto que Ana recebeu?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "8%."
+        },
+        {
+          "letter": "B",
+          "text": "6%."
+        },
+        {
+          "letter": "C",
+          "text": "10%."
+        },
+        {
+          "letter": "D",
+          "text": "7%."
+        }
+      ],
+      "correct": "A",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q12",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 12,
+      "discipline": "Matemática",
+      "scope": "Matemática",
+      "topic": "Questão real de Matemática",
+      "stem": "Em uma grande obra de construção civil, a equipe de engenharia calculou que a operação de concretagem para a fundação de um edifício levaria 7 horas e 45 minutos para ser concluída. Para garantir o controle eficiente do tempo e da logística de equipamentos e materiais, é necessário converter essa duração total em minutos. Qual é a duração total da operação de concretagem em minutos?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "455 minutos."
+        },
+        {
+          "letter": "B",
+          "text": "435 minutos."
+        },
+        {
+          "letter": "C",
+          "text": "465 minutos."
+        },
+        {
+          "letter": "D",
+          "text": "475 minutos."
+        }
+      ],
+      "correct": "C",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q13",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 13,
+      "discipline": "Matemática",
+      "scope": "Matemática",
+      "topic": "Questão real de Matemática",
+      "stem": "Durante uma viagem turística, o Sr. João precisou realizar um saque em um caixa eletrônico para pagar por serviços em uma pequena cidade turística. No entanto, ele não percebeu que o caixa eletrônico só disponibilizava notas de R$5,00. Ele sacou o valor de R$875,00 para cobrir seus custos durante a estadia. Quantas cédulas de R$5,00 o Sr. João retirou ao realizar esse saque?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "175 cédulas."
+        },
+        {
+          "letter": "B",
+          "text": "180 cédulas."
+        },
+        {
+          "letter": "C",
+          "text": "170 cédulas."
+        },
+        {
+          "letter": "D",
+          "text": "185 cédulas."
+        }
+      ],
+      "correct": "A",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q14",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 14,
+      "discipline": "Matemática",
+      "scope": "Matemática",
+      "topic": "Questão real de Matemática",
+      "stem": "Na padaria do Sr. João, os produtos estão com preços promocionais. Maria, uma cliente regular, comprou 400g de pão francês, 700g de queijo muçarela, 1,5kg de bolo caseiro, 500g de presunto e 1,2kg de biscoito de polvilho. A tabela abaixo apresenta os preços por quilo de cada produto. Quanto Maria gastou?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "R$74,20."
+        },
+        {
+          "letter": "B",
+          "text": "R$75,00."
+        },
+        {
+          "letter": "C",
+          "text": "R$72,50."
+        },
+        {
+          "letter": "D",
+          "text": "R$73,10."
+        }
+      ],
+      "correct": "D",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "supportTable": {
+        "headers": [
+          "Produto",
+          "Preço por Kg (em R$)"
+        ],
+        "rows": [
+          [
+            "Pão francês",
+            "8,00"
+          ],
+          [
+            "Queijo muçarela",
+            "25,00"
+          ],
+          [
+            "Bolo caseiro",
+            "18,00"
+          ],
+          [
+            "Presunto",
+            "22,00"
+          ],
+          [
+            "Biscoito de polvilho",
+            "12,00"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q15",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 15,
+      "discipline": "Matemática",
+      "scope": "Matemática",
+      "topic": "Questão real de Matemática",
+      "stem": "Uma família está monitorando o consumo de energia elétrica de sua residência para reduzir os custos na próxima conta de luz. Ao analisar os dados do último mês, observaram que a casa consumiu 720 kWh de energia elétrica ao longo de 30 dias. Com a meta de economizar, eles planejam reduzir o uso em algumas semanas. Mantendo o mesmo padrão de consumo, qual seria o total de energia consumida se a família utilizasse os aparelhos elétricos da casa por 20 dias consecutivos?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "540 kWh."
+        },
+        {
+          "letter": "B",
+          "text": "420 kWh."
+        },
+        {
+          "letter": "C",
+          "text": "480 kWh."
+        },
+        {
+          "letter": "D",
+          "text": "600 kWh."
+        }
+      ],
+      "correct": "C",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q16",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 16,
+      "discipline": "Matemática",
+      "scope": "Matemática",
+      "topic": "Questão real de Matemática",
+      "stem": "Em um hospital, a administração está gerenciando a distribuição de medicamentos e precisa reorganizar o estoque de um lote que contém 1260 unidades. O processo de fatoração de números primos, que é uma técnica amplamente usada em diversas áreas, inclusive na otimização de estoques, pode ser aplicado para reorganizar o lote de forma eficiente. Sendo assim, pode-se afirmar que a fatoração do número 1260 possui um produto entre ___ números primos distintos.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "5 <PARSED TEXT FOR PAGE: 6 / 12>"
+        },
+        {
+          "letter": "B",
+          "text": "2"
+        },
+        {
+          "letter": "C",
+          "text": "3"
+        },
+        {
+          "letter": "D",
+          "text": "4 Noções Básica de Língua Inglesa O texto seguinte servirá de base para responder às questões de 17 a 21. Manufacturing dips as container outlook slides The NEOI fell to 48.9 in August from 49.6 in July, indicating deteriorating trade conditions for the third consecutive month. Traded goods slowed in both developed and emerging markets, but India maintained a modest growth in goods exports during August, the last month for which figures are available. In addition, the global PMI has shown a contraction of manufacturing, signalling a further deterioration in cargo levels in the immediate future. \"China's goods exports fell for the first time in 2024, signalling a broader decline in manufacturing as the year progresses,\" said global freight forwarder Dimerco. Headquartered in Taiwan, the Taipei-listed forwarder said that the Federal Reserve's recent interest rate cut may revive global goods trade. August trading in the US continued to grow amid concerns about a US East Coast strike, and a November election that could see major import tariffs imposed on goods, said Dimerco. \"The early peak season suggests an earlier-than-usual start to the slow season, with expected declines in handling volume from September to December, projected at 2.31m, 2.08m, 1.92m, and 1.89m teu, respectively. If these forecasts hold, total port volume for 2024 could reach 24.98m teu, a 12% increase from 2023,\" said Alvin Fuh, VP - ocean freight at Dimerco Express Group. Dynamar analyst Darron Wadey, said: \"Approaching 470 vessels bringing around 3.2m teu in capacity are expected to be delivered by the end of 2024.\" That massive increase in capacity, and the fact that much of this increase is for larger sized vessels, means that any correction in freight rates should have started up to a year ago, according to Wadey. \"It is only the happenstance of the Red Sea and US East Coast situations that have, artificially, buoyed the markets. When the markets do correct therefore, the falls will only be more dramatic because the inevitable has been delayed whilst the stream of new ships coming online continues,\" said Wadey. Drewry Shipping Consultants' analysis shows that blank sailings are expected to increase between 9 September and 7 October with an additional 53 blanked sailings, totalling 90 for the period. Some 67% of these cancelled services were on the Pacific eastbound, while a further 21% on the Asia to Europe trades and 12% on the Atlantic. Even with these cancelled services, rates are continuing to fall on all the major trades, according to Dimerco. New entrants are said to be another element to failure of lines to maintain rate levels. \"While the three major alliances are increasing blank sailings, several individual carriers have deployed 11 extra vessels for Europe WB and 14 for TPEB to handle the expected cargo surge before China's Golden Week. However, the anticipated pre-October 1 cargo rush in China did not materialise this year, leaving no backlogs or rollover cargo for these extra loaders to transport,\" said Dimerco's monthly analysis. Rebalancing trade can only be achieved through the long-term and steady growth of trade, said Wadey, combined with \"a strategic rather than knee-jerk ship ordering policy\". These required shifts are generational, he said, \"in the short term, political events in the US might lead to an end-2024 rush for cargoes again... but then where does that leave 2025 and beyond?\" Drewry's WCI index fell a further 7% this week, closing at $3,691/feu. https://www.seatrade-maritime.com/containers/manufacturing-dips-as-c ontainer-outlook-slides"
+        }
+      ],
+      "correct": "D",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q17",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 17,
+      "discipline": "Língua Inglesa",
+      "scope": "Língua Inglesa",
+      "topic": "Questão real de Língua Inglesa",
+      "stem": "According to the article, what is the significance of the NEOI dropping to 48.9 in August?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It reflects deteriorating trade conditions for the third consecutive month."
+        },
+        {
+          "letter": "B",
+          "text": "It shows that the Federal Reserve's interest rate cuts have been effective."
+        },
+        {
+          "letter": "C",
+          "text": "It suggests that manufacturing in India has dramatically increased."
+        },
+        {
+          "letter": "D",
+          "text": "It indicates an improvement in global trade conditions."
+        }
+      ],
+      "correct": "A",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "VIGIA-EN"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q18",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 18,
+      "discipline": "Língua Inglesa",
+      "scope": "Língua Inglesa",
+      "topic": "Questão real de Língua Inglesa",
+      "stem": "What reason does the article give for the failure of shipping lines to maintain rate levels, despite efforts to manage capacity through blank sailings?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The deployment of extra vessels by individual carriers, despite blank sailings by major alliances."
+        },
+        {
+          "letter": "B",
+          "text": "A shortage of new vessels to meet global shipping demands."
+        },
+        {
+          "letter": "C",
+          "text": "An unexpected cargo surge in China due to Golden Week."
+        },
+        {
+          "letter": "D",
+          "text": "Increased tariffs on US imports."
+        }
+      ],
+      "correct": "A",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "VIGIA-EN"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q19",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 19,
+      "discipline": "Língua Inglesa",
+      "scope": "Língua Inglesa",
+      "topic": "Questão real de Língua Inglesa",
+      "stem": "<PARSED TEXT FOR PAGE: 7 / 12> What is the projected handling volume decline for the period from September to December, according to Dimerco?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A significant surge, leading to a 12% increase in port volume for 2024."
+        },
+        {
+          "letter": "B",
+          "text": "A consistent increase, reaching 3.2m teu by December."
+        },
+        {
+          "letter": "C",
+          "text": "A slight dip in September, but an increase towards the end of the year."
+        },
+        {
+          "letter": "D",
+          "text": "A gradual decline, with volumes falling to 1.89m teu by December."
+        }
+      ],
+      "correct": "D",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "VIGIA-EN"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q20",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 20,
+      "discipline": "Língua Inglesa",
+      "scope": "Língua Inglesa",
+      "topic": "Questão real de Língua Inglesa",
+      "stem": "Which factor did Darron Wadey highlight as artificially sustaining the market, despite an increase in vessel capacity?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The reduction of import tariffs in the US market."
+        },
+        {
+          "letter": "B",
+          "text": "Situations in the Red Sea and on the US East Coast."
+        },
+        {
+          "letter": "C",
+          "text": "Blank sailings imposed by the three major alliances."
+        },
+        {
+          "letter": "D",
+          "text": "An early start to the slow shipping season."
+        }
+      ],
+      "correct": "B",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "VIGIA-EN"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q21",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 21,
+      "discipline": "Língua Inglesa",
+      "scope": "Língua Inglesa",
+      "topic": "Questão real de Língua Inglesa",
+      "stem": "What does Dimerco suggest is a possible effect of the Federal Reserve's recent interest rate cut?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A permanent decline in global goods trade."
+        },
+        {
+          "letter": "B",
+          "text": "An increase in blank sailings between Asia and Europe."
+        },
+        {
+          "letter": "C",
+          "text": "A temporary revival in global goods trade."
+        },
+        {
+          "letter": "D",
+          "text": "A decrease in manufacturing exports from India."
+        }
+      ],
+      "correct": "C",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "VIGIA-EN"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q22",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 22,
+      "discipline": "Língua Inglesa",
+      "scope": "Língua Inglesa",
+      "topic": "Questão real de Língua Inglesa",
+      "stem": "What is the primary purpose of dredging in port operations?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "To increase the water depth for safe navigation of ships."
+        },
+        {
+          "letter": "B",
+          "text": "To unload cargo from ships faster."
+        },
+        {
+          "letter": "C",
+          "text": "To build new warehouses near the port."
+        },
+        {
+          "letter": "D",
+          "text": "To inspect containers for customs clearance."
+        }
+      ],
+      "correct": "A",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q23",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 23,
+      "discipline": "Língua Inglesa",
+      "scope": "Língua Inglesa",
+      "topic": "Questão real de Língua Inglesa",
+      "stem": "Read the dialogue below: Safety Officer: Make sure the fenders are in place along the pier. We don't want any damage to the ship or the dock during mooring. Engineer: Already checked. The fenders are positioned, and the mooring lines are ready to secure the ship once it arrives. Safety Officer: Good. How's the condition of the gangway? The crew will need it for safe access once they dock. Engineer: It's been inspected, and everything is in order. I'll also be monitoring the ship's propeller to ensure there's no obstruction during maneuvering. Safety Officer: Perfect. Let's not forget to test the pumps. If there's any excess water from the last docking, we'll need to clear it immediately. Engineer: Already on it. Everything will be in place by the time the ship enters the harbor. Which of the following terms refers to the ropes used to secure a ship to the dock?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Propeller"
+        },
+        {
+          "letter": "B",
+          "text": "Mooring lines"
+        },
+        {
+          "letter": "C",
+          "text": "Pumps"
+        },
+        {
+          "letter": "D",
+          "text": "Fenders Informática Básica"
+        }
+      ],
+      "correct": "B",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q31",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 31,
+      "discipline": "Legislação Portuária",
+      "scope": "Legislação Portuária",
+      "topic": "Lei 9.719/1998 — cadastro e escala",
+      "stem": "O que é garantido ao trabalhador portuário avulso cadastrado no órgão gestor de mão de obra, conforme a Lei nº 9.719/1998?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "O direito de concorrer à escala diária para complementar a equipe de trabalho dos registrados."
+        },
+        {
+          "letter": "B",
+          "text": "O direito de trabalhar exclusivamente para um operador portuário."
+        },
+        {
+          "letter": "C",
+          "text": "O direito de escolher os horários de trabalho de acordo com sua conveniência."
+        },
+        {
+          "letter": "D",
+          "text": "A obrigação de trabalhar em turnos fixos e inalteráveis."
+        }
+      ],
+      "correct": "A",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q32",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 32,
+      "discipline": "Legislação Portuária",
+      "scope": "Legislação Portuária",
+      "topic": "Lei 9.719/1998 — requisição de mão de obra",
+      "stem": "Qual é a principal responsabilidade do operador portuário com relação à mão de obra do trabalhador portuário avulso, conforme a Lei nº 9.719/1998?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Não há responsabilidade direta sobre a contratação de trabalhadores avulsos."
+        },
+        {
+          "letter": "B",
+          "text": "Requisitar a mão de obra diretamente aos trabalhadores."
+        },
+        {
+          "letter": "C",
+          "text": "Contratar apenas trabalhadores com contratos permanentes."
+        },
+        {
+          "letter": "D",
+          "text": "Requisitar a mão de obra ao órgão gestor de mão de obra."
+        }
+      ],
+      "correct": "D",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q33",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 33,
+      "discipline": "Legislação Portuária",
+      "scope": "Legislação Portuária",
+      "topic": "Lei 12.815/2013 — objetivos",
+      "stem": "De acordo com a Lei nº 12.815/2013, qual é um dos principais objetivos da exploração dos portos organizados e das instalações portuárias?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Eliminar o uso de tecnologia em processos portuários."
+        },
+        {
+          "letter": "B",
+          "text": "Priorizar a contratação de trabalhadores estrangeiros."
+        },
+        {
+          "letter": "C",
+          "text": "Reduzir os investimentos em infraestrutura e superestrutura portuária."
+        },
+        {
+          "letter": "D",
+          "text": "Aumentar a competitividade e promover o desenvolvimento econômico do país."
+        }
+      ],
+      "correct": "D",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q37",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 37,
+      "discipline": "Legislação Portuária",
+      "scope": "Legislação Portuária",
+      "topic": "Lei 12.815/2013 — concessão e arrendamento",
+      "stem": "Qual é uma das cláusulas essenciais dos contratos de concessão e arrendamento, conforme a Lei nº 12.815/2013?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A obrigação de contratar apenas trabalhadores estrangeiros."
+        },
+        {
+          "letter": "B",
+          "text": "A liberação de tarifas portuárias sem controle governamental."
+        },
+        {
+          "letter": "C",
+          "text": "A exclusão de investimentos em infraestrutura portuária."
+        },
+        {
+          "letter": "D",
+          "text": "O prazo e as condições da exploração do porto organizado ou da instalação portuária."
+        }
+      ],
+      "correct": "D",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q42",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 42,
+      "discipline": "Conhecimentos Específicos",
+      "scope": "Conhecimentos Específicos",
+      "topic": "NR-06 — gestão de EPI",
+      "stem": "No contexto da segurança ocupacional, a NR-6 estabelece diretrizes minuciosas para o uso, fornecimento e manutenção dos Equipamentos de Proteção Individual (EPIs), com o objetivo de minimizar os riscos que não podem ser completamente eliminados por medidas de controle coletivas ou administrativas. A norma é abrangente e exige que o empregador adote um gerenciamento contínuo dos EPIs, assegurando que todos os trabalhadores estejam devidamente protegidos contra exposições ocupacionais que possam comprometer sua saúde e segurança. Esse gerenciamento envolve não apenas a simples entrega dos equipamentos, mas também o controle da qualidade, a adaptação ao risco específico e a garantia de que os EPIs sejam sempre utilizados de maneira correta e eficaz. Considerando as disposições da NR-6, analise as alternativas a seguir e identifique aquela que descreve corretamente as obrigações impostas pela norma em relação à gestão dos EPIs.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A norma permite que os trabalhadores adquiram seus próprios EPIs, desde que os equipamentos sejam compatíveis com as exigências mínimas de segurança, aliviando o empregador da responsabilidade sobre o fornecimento e manutenção, desde que o trabalhador assine um termo de compromisso sobre a conformidade dos equipamentos adquiridos."
+        },
+        {
+          "letter": "B",
+          "text": "A NR-6 determina que o empregador deve garantir o fornecimento contínuo e gratuito dos EPIs aos trabalhadores, realizar treinamentos práticos e teóricos sobre o uso e conservação dos equipamentos, e implementar um sistema de registro que monitore a distribuição, o uso adequado e as substituições periódicas dos EPIs conforme o grau de exposição aos riscos ocupacionais."
+        },
+        {
+          "letter": "C",
+          "text": "A NR-6 considera que a capacitação dos trabalhadores sobre o uso dos EPIs pode ser feita de forma autoinstrutiva, utilizando manuais ou guias fornecidos pelos fabricantes, sem a necessidade de treinamento supervisionado, desde que o trabalhador demonstre conhecimento básico do equipamento."
+        },
+        {
+          "letter": "D",
+          "text": "Segundo a NR-6, os EPIs podem ser reutilizados entre diferentes turnos de trabalhadores, desde que submetidos a uma limpeza simples e a um controle visual diário, dispensando a necessidade de registros documentados de uso e manutenção, desde que o equipamento não apresente danos evidentes."
+        }
+      ],
+      "correct": "B",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q43",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 43,
+      "discipline": "Conhecimentos Específicos",
+      "scope": "Conhecimentos Específicos",
+      "topic": "NR-29 — segurança no trabalho portuário",
+      "stem": "A NR-29 estabelece diretrizes específicas para garantir a segurança e saúde dos trabalhadores que atuam em áreas portuárias, onde os riscos de acidentes são elevados devido à movimentação constante de cargas, manuseio de materiais perigosos e operações em ambientes próximos à água. A norma abrange uma ampla gama de procedimentos, desde a obrigatoriedade do uso de EPIs até a implementação de protocolos de emergência e resgate, visando criar um ambiente de trabalho seguro e controlado. Avalie as proposições abaixo sobre os requisitos da NR-29. Assim, avalie as proposições: I.A NR-29 exige que todos os trabalhadores portuários utilizem EPIs adequados, como capacetes e coletes salva-vidas, durante a execução de tarefas que envolvam risco de queda ou operações em locais próximos ao mar. II.Segundo a NR-29, a sinalização de segurança é recomendada, mas não obrigatória, em áreas de movimentação de cargas que tenham visibilidade adequada e tráfego controlado, desde que os trabalhadores sejam treinados regularmente sobre os riscos do local. III.A norma especifica que operações de carga e descarga em portos devem ser supervisionadas por <PARSED TEXT FOR PAGE: 11 / 12> técnicos de segurança qualificados, que têm a responsabilidade de identificar potenciais riscos e adotar medidas preventivas para evitar acidentes. Assinale a alternativa correta:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Apenas a proposição III está correta."
+        },
+        {
+          "letter": "B",
+          "text": "Apenas as proposições I e III estão corretas."
+        },
+        {
+          "letter": "C",
+          "text": "Apenas as proposições II e III estão corretas."
+        },
+        {
+          "letter": "D",
+          "text": "Apenas a proposição II está correta."
+        }
+      ],
+      "correct": "B",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q44",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 44,
+      "discipline": "Conhecimentos Específicos",
+      "scope": "Conhecimentos Específicos",
+      "topic": "NR-06 — Certificado de Aprovação e responsabilidades",
+      "stem": "A NR-6 define as diretrizes para o uso e gestão dos Equipamentos de Proteção Individual (EPIs) nos ambientes de trabalho, especificando as responsabilidades dos empregadores em fornecer, orientar e monitorar o uso correto dos equipamentos, além de manter um controle rigoroso sobre a conservação e substituição desses dispositivos. A norma visa minimizar os riscos ocupacionais que não podem ser eliminados por medidas de proteção coletiva, assegurando a saúde e segurança dos trabalhadores em diversas atividades. Avalie as proposições abaixo com base nas diretrizes da NR-6. Assim, avalie as proposições: I.A NR-6 estabelece que todos os EPIs devem possuir o Certificado de Aprovação (CA), que assegura que o equipamento atende aos requisitos técnicos de qualidade e segurança exigidos pela legislação brasileira. Os EPIs sem o CA não são permitidos em nenhuma atividade de trabalho. II.A norma permite que os trabalhadores reutilizem os EPIs, mesmo quando visivelmente danificados, desde que tenham sido previamente higienizados e que o uso seja apenas temporário, com previsão de substituição no prazo de até 30 dias. III.A responsabilidade pela correta utilização e manutenção dos EPIs é compartilhada entre o empregador, que deve fornecer treinamentos e supervisão, e o trabalhador, que deve seguir as orientações e zelar pela conservação dos equipamentos durante o uso. Assinale a alternativa correta:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Apenas a proposição II está correta."
+        },
+        {
+          "letter": "B",
+          "text": "Apenas as proposições II e III estão corretas."
+        },
+        {
+          "letter": "C",
+          "text": "Apenas a proposição III está correta."
+        },
+        {
+          "letter": "D",
+          "text": "Apenas as proposições I e III estão corretas. O texto seguinte servirá de base para responder à questão 45. O código internacional de sinais (CIS) utilizado pela navegação marítima serve de comunicação entre dois ou mais navios, podendo ser representado por código NATO, código Morse ou um conjunto de bandeiras. Observe a bandeira abaixo: ."
+        }
+      ],
+      "correct": "D",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q46",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 46,
+      "discipline": "Conhecimentos Específicos",
+      "scope": "Conhecimentos Específicos",
+      "topic": "Cargas perigosas — painel/identificação",
+      "stem": "A informação da placa numérica retangular possui o seguinte significado:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A carga é de substância corrosiva ou levemente corrosiva, tóxica."
+        },
+        {
+          "letter": "B",
+          "text": "A carga é de substância tóxica ou levemente tóxica."
+        },
+        {
+          "letter": "C",
+          "text": "A carga é de sólido altamente tóxico, inflamável ou sujeito a auto-aquecimento."
+        },
+        {
+          "letter": "D",
+          "text": "A carga é de substância tóxica, corrosiva."
+        }
+      ],
+      "correct": "B",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "supportText": "Na figura da questão, o veículo transporta um contêiner com rótulo “TÓXICO” e painel numérico “60 / 2609”."
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q48",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 48,
+      "discipline": "Conhecimentos Específicos",
+      "scope": "Conhecimentos Específicos",
+      "topic": "Cargas perigosas — diamante de Hommel",
+      "stem": "Uma outra simbologia bastante aplicada em vários países, no entanto sem obrigatoriedade, é o método do diamante de Hommel. Diferentemente das placas de identificação, o diamante de Hommel não informa qual é a substância química, mas indica todos os riscos envolvendo o produto químico em questão. Cada diamante possui uma cor: vermelho, azul, amarelo e branco. O diamante azul representa o risco de:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Riscos especiais."
+        },
+        {
+          "letter": "B",
+          "text": "Perigo para saúde."
+        },
+        {
+          "letter": "C",
+          "text": "Inflamabilidade."
+        },
+        {
+          "letter": "D",
+          "text": "Reatividade."
+        }
+      ],
+      "correct": "B",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-VIGIA-2024-Q49",
+      "exam": "OGMO Paranaguá 2024 — Vigia",
+      "date": "2024",
+      "questionNumber": 49,
+      "discipline": "Conhecimentos Específicos",
+      "scope": "Conhecimentos Específicos",
+      "topic": "Contêineres — tipos e características",
+      "stem": "O contêiner é uma caixa construída em aço, alumínio ou até fibra, de grandes dimensões destinado ao transporte unitizado de mercadorias e suficientemente forte para resistir ao uso constante e pode ser de diversos tipos. Indique a alternativa que indica o tipo INCORRETO de contêiner.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "O contêiner do tipo high cube trata-se de um container sem as paredes laterais e sem teto permitindo o transporte de cargas que excedam tanto na altura como na largura, ideias para máquinas, peças, e produtos diversos."
+        },
+        {
+          "letter": "B",
+          "text": "O contêiner do tipo bulk (graneleiros), também semelhante ao Box, todo fechado com escotilhas no teto e uma escotilha na parede do fundo, na parte inferior para o descarregamento de granéis sólidos."
+        },
+        {
+          "letter": "C",
+          "text": "O contêiner do tipo box ou dry é o mais utilizado, sendo totalmente fechado com as portas no fundo, sendo adequado para o transporte da maioria das cargas."
+        },
+        {
+          "letter": "D",
+          "text": "O contêiner do tipo tanque é um tanque dentro de uma armação de aço nos padrões dos containers, próprio para o transporte de líquidos como produtos inflamáveis ou alimentícios."
+        }
+      ],
+      "correct": "A",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    }
+  ]
+}
