@@ -1,0 +1,1014 @@
+{
+  "version": 1,
+  "exam": "OGMO Paranaguá 2024 — Estivador",
+  "count": 33,
+  "contexts": {
+    "ESTIVADOR-PT": "O texto seguinte servirá de base para responder às questões de 1 a 8. Festa Italiana Solidária de R.Pires destaca cultura, gastronomia e solidariedade A 2ª Festa Italiana Solidária de Ribeirão Pires retorna nos dias 28 e 29 de setembro para mais dois dias de celebração da cultura italiana e solidariedade. O evento acontece na Tenda Multicultural do Complexo Ayrton Senna e oferece uma ampla programação cultural, além da tradicional gastronomia italiana e a arrecadação de doações para ajudar instituições sociais da cidade. O público poderá saborear pratos tradicionais como pizzas, massas, risotos e doces, enquanto colabora com entidades locais. Desde sua primeira edição em 2023, a Festa Italiana Solidária tem se consolidado como um evento de grande importância social e cultural em Ribeirão Pires. Com o objetivo de arrecadar fundos para instituições locais, a festa reúne pratos típicos italianos ofertados pelas entidades como forma de angariar recursos. Neste ano, instituições sociais da cidade contam novamente com a venda de massas, pizzas, risotos, polentas, doces e bebidas, garantindo uma verdadeira imersão na culinária italiana. Além disso, os visitantes também são incentivado a doar alimentos não perecíveis e ração para pets, que será destinados a famílias em situação de vulnerabilidade e instituições que cuidam de animais resgatados. Esta iniciativa reforça o espírito comunitário da festa, que vai além da diversão e promove a solidariedade como uma forma de melhorar a vida de quem mais precisa. Neste segundo fim de semana, a programação cultural promete atrair ainda mais o público com apresentações que celebram a tradição italiana. O cantor Fred Rovella, que já conquistou os corações dos presentes no último fim de semana, retorna ao palco da Tenda Multicultural com um repertório repleto de canções italianas tradicionais, garantindo um show animado e nostálgico. Seu carisma e a paixão pela música italiana farão parte de um dos momentos mais esperados do evento. Além das atrações culturais, o ambiente familiar e comunitário da Festa é um dos grandes atrativos. Famílias, amigos e turistas se reúnem para celebrar a cultura italiana em uma atmosfera festiva e acolhedora. Os chalés das instituições sociais estão decorados com bandeiras e cores que remetem à Itália, criando um cenário autêntico para quem quer se sentir em meio a uma festa tradicional italiana, sem sair do Brasil. Para aqueles que ainda não participaram, o evento oferece a chance de saborear a verdadeira culinária italiana, assistir a apresentações culturais únicas e, principalmente, contribuir com causas sociais de grande relevância para a cidade. (https://www.reporterdiario.com.br/noticia/3510508/festa-italiana-solidari a-de-r-pires-destaca-cultura-gastronomia-e-solidariedade/ adaptado)",
+    "ESTIVADOR-EN": "O texto seguinte servirá de base para responder às questões de 17 a 21. Ship carrying explosive fertiliser heads to UK waters A Maltese-flagged cargo ship carrying thousands of tonnes of potentially explosive fertiliser is set to travel through UK waters. Ruby, which was earlier accompanied by an escort tug, has reportedly been rejected by several countries due to its cargo. The ship, which has 20,000 tonnes of ammonium nitrate on board, was previously damaged but deemed seaworthy by authorities in Norway. HM Coastguard is in contact with the vessel, which according to ship tracking data, was in the North Sea off the Kent coast on Thursday morning. The ship, owned by Maltese firm Ruby Enterprise, set off from the northern Russian port of Kandalaksha in July. The national maritime emergency service said it will monitor the ship's progress as it heads towards and through UK waters. <PARSED TEXT FOR PAGE: 6 / 13> Vessels are not required to ask permission to travel through UK territorial waters for legitimate purposes. An escorting tug, Amber II, which had sailed with the boat from Norway, left the Ruby on Thursday morning and sailed east. Its current destination is listed as Rotterdam, in the Netherlands. Though there is no suggestion of immediate danger from the cargo, the same chemical caused a devastating blast at a Beirut warehouse in 2020. Ammonium nitrate is regularly transported around the world and used as fertiliser but is also used in explosives. The ship is carrying seven times the amount of ammonium nitrate that caused the Beirut explosion. Ruby's location on Thursday, according to Marine Traffic. Marine Traffic data suggested the ship was in the North Sea on Thursday. Soon after departing Russia, the Ruby briefly ran aground after reportedly encountering a storm. It then continued its journey around the Kola Peninsula and docked in Tromsø, Norway. Norway's Maritime Authority told the BBC the vessel was inspected by DNV Group to ensure it met safety and environmental standards. The group found damage to its hull, propeller and rudder, but the Ruby was still deemed \"seaworthy\". As a precaution, DNV Group, and the Maltese flag registry, insisted that a tug escort the vessel for the remainder of its journey. The ship was bound for Klaipeda, in Lithuania, according to ship tracking firm MarineTraffic. But despite being deemed seaworthy, the ship was denied entry to Klaipeda. Algia Latakas, the port authority's chief executive, told the BBC that this was \"because of its cargo\". Andrea Sella, professor of chemistry at University College London, said the cargo was not high risk, unless there was a fire on board. \"While I understand the caution of the authorities in Troms, I suspect that the chances of a similar disaster to Beirut are relatively modest,\" she said. She added: \"It would also be interesting to know what the nature of the repairs might be as clearly welding might significantly raise the potential fire risk.\" Other reports suggested Sweden had imposed a ban as well, but Sweden's transport agency denies this. \"What the Swedish authorities did was to follow the matter in case we would have needed to act in some way,\" a spokesperson told the BBC. In recent weeks, the Ruby travelled south along Norway's coast and through the North Sea. The ship reportedly has had restricted manoeuvrability, though the BBC has been unable to confirm this. On 25 September, it anchored about 15 miles (25km) north east of Margate, in Kent, near the Dover Strait - one of the world's busiest waterways. The Maritime and Coastguard Agency (MCA) said the vessel is \"currently securely anchored outside UK territorial waters waiting for appropriate conditions to refuel at sea before passing through the English Channel\". Refuelling at sea is a common practice and will take place in accordance with safety procedures and in favourable weather, said the MCA. Its current destination is listed as Marsaxlokk, in Malta. But Maltese authorities have told local media that the ship can only enter the country if it empties its cargo beforehand. Marco Forgione, director general of the Chartered Institute of Export & International Trade, raised concerns about potential \"environmental damage\". \"Should the ammonium nitrate start to leak out of the ship and contaminate the sea... shipping through the channel would have to be diverted to avoid further shifting the pollution through its waters,\" he said. He added that damage as a result of the potential scenario would be \"immense\" and cause \"ongoing disruption\". The vessel has appropriate safety certificates approved by the vessel's flag state and is able to make its own way, said the MCA. https://www.bbc.com/news/articles/c62g95721leo"
+  },
+  "questions": [
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q01",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 1,
+      "discipline": "Língua Portuguesa",
+      "scope": "Língua Portuguesa",
+      "topic": "Questão real de Língua Portuguesa",
+      "stem": "O público poderá saborear pratos tradicionais como pizzas, massas, risotos e doces, enquanto colabora com entidades locais. O verbo destacado está no tempo e modo do:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "futuro do presente do indicativo."
+        },
+        {
+          "letter": "B",
+          "text": "futuro do pretérito do indicativo."
+        },
+        {
+          "letter": "C",
+          "text": "futuro do pretérito mais que perfeito do indicativo."
+        },
+        {
+          "letter": "D",
+          "text": "futuro do presente do subjuntivo."
+        }
+      ],
+      "correct": "A",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "ESTIVADOR-PT"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q02",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 2,
+      "discipline": "Língua Portuguesa",
+      "scope": "Língua Portuguesa",
+      "topic": "Questão real de Língua Portuguesa",
+      "stem": "Com o objetivo de arrecadar fundos para instituições locais, a festa reúne pratos típicos italianos ofertados pelas entidades como forma de angariar recursos: O vocábulo destacado pode ser substituído sem perder o sentido pelos da alternativa abaixo, EXCETO:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "armazenar."
+        },
+        {
+          "letter": "B",
+          "text": "obter."
+        },
+        {
+          "letter": "C",
+          "text": "captar."
+        },
+        {
+          "letter": "D",
+          "text": "arrecadar."
+        }
+      ],
+      "correct": "A",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "ESTIVADOR-PT"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q03",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 3,
+      "discipline": "Língua Portuguesa",
+      "scope": "Língua Portuguesa",
+      "topic": "Questão real de Língua Portuguesa",
+      "stem": "Os vocábulos, retirados do texto, que são classificados quanto a posição da sílaba tônica em proparoxítona, paroxítona e oxítona, respectivamente estão na alternativa:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "último, reúnem, é."
+        },
+        {
+          "letter": "B",
+          "text": "público, perecíveis, além."
+        },
+        {
+          "letter": "C",
+          "text": "Itália, típicos, chalé."
+        },
+        {
+          "letter": "D",
+          "text": "famílias, também, poderá."
+        }
+      ],
+      "correct": "B",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "ESTIVADOR-PT"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q04",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 4,
+      "discipline": "Língua Portuguesa",
+      "scope": "Língua Portuguesa",
+      "topic": "Questão real de Língua Portuguesa",
+      "stem": "Em relação ao texto, é INCORRETO afirmar que:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Os recursos obtidos pela instituição referem-se exclusivamente à venda de massas e à doação de alimentos não perecíveis."
+        },
+        {
+          "letter": "B",
+          "text": "Os participantes colaboram com causas socias, mas também têm a oportunidade de se divertir."
+        },
+        {
+          "letter": "C",
+          "text": "A ornamentação dos chalés com bandeiras e cores lembram à Itália, levando os participantes a ter a sensação de que estão na Itália, mesmo estando no Brasil. <PARSED TEXT FOR PAGE: 4 / 13>"
+        },
+        {
+          "letter": "D",
+          "text": "O dinheiro arrecadado na Festa Italiana será para ajudar instituições de Ribeirão Pires."
+        }
+      ],
+      "correct": "A",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "ESTIVADOR-PT"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q05",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 5,
+      "discipline": "Língua Portuguesa",
+      "scope": "Língua Portuguesa",
+      "topic": "Questão real de Língua Portuguesa",
+      "stem": "Para aqueles que ainda não participaram, o evento oferece a chance de saborear a verdadeira culinária italiana, assistir a apresentações culturais únicas e, principalmente, contribuir com causas sociais de grande relevância para a cidade. Em relação à separação silábica e ao número de sílabas dos vocábulos do trecho acima, marque a alternativa CORRETA:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "As palavras 'chance' e 'cidade' são dissílabas."
+        },
+        {
+          "letter": "B",
+          "text": "A separação silábica de 'participaram' é 'par-ti-ci-pa-ram = trissílaba."
+        },
+        {
+          "letter": "C",
+          "text": "Os vocábulos 'assistir' , 'aqueles' e 'evento' são trissílabas."
+        },
+        {
+          "letter": "D",
+          "text": "As palavras ' causas' e culturais' são trissílabas."
+        }
+      ],
+      "correct": "C",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "ESTIVADOR-PT"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q06",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 6,
+      "discipline": "Língua Portuguesa",
+      "scope": "Língua Portuguesa",
+      "topic": "Questão real de Língua Portuguesa",
+      "stem": "Identifique a alternativa que apresenta a concordância verbal e a nominal INCORRETAS:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A 2ª Festa Italiana Solidária de Ribeirão Pires retorna nos dias 28 e 29 de setembro para mais dois dias de celebração da cultura italiana e solidariedade. O evento acontece na Tenda Multicultural do Complexo Ayrton Senna e oferece uma ampla programação cultural."
+        },
+        {
+          "letter": "B",
+          "text": "Além disso, os visitantes também são incentivado a doar alimentos não perecíveis e ração para pets, que será destinados a famílias em situação de vulnerabilidade e instituições que cuidam de animais resgatados."
+        },
+        {
+          "letter": "C",
+          "text": "Além das atrações culturais, o ambiente familiar e comunitário da Festa é um dos grandes atrativos. Famílias, amigos e turistas se reúnem para celebrar a cultura italiana em uma atmosfera festiva e acolhedora."
+        },
+        {
+          "letter": "D",
+          "text": "Neste ano, instituições sociais da cidade contam novamente com a venda de massas, pizzas, risotos, polentas, doces e bebidas, garantindo uma verdadeira imersão na culinária italiana."
+        }
+      ],
+      "correct": "B",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "ESTIVADOR-PT"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q07",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 7,
+      "discipline": "Língua Portuguesa",
+      "scope": "Língua Portuguesa",
+      "topic": "Questão real de Língua Portuguesa",
+      "stem": "Os chalés das instituições sociais estão decorados com bandeiras e cores que remetem à Itália, criando um cenário autêntico para quem quer se sentir em meio a uma festa tradicional italiana, sem sair do Brasil. Em relação as classes gramaticais, analise a afirmativa correta:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "As palavras 'festa' e 'tradicional' são adjetivos que caracterizam o substantivo 'italiana'."
+        },
+        {
+          "letter": "B",
+          "text": "As palavras 'instituições', 'bandeiras' e 'Itália', são, respectivamente, substantivo comum, substantivo abstrato e substantivo próprio."
+        },
+        {
+          "letter": "C",
+          "text": "A palavra 'meio' é um adjetivo que está caracterizando 'festa'."
+        },
+        {
+          "letter": "D",
+          "text": "As palavras 'sociais' ' decorados' e 'autêntico são adjetivos que caracterizam, respectivamente, 'instituições', 'chalés' e 'cenário'."
+        }
+      ],
+      "correct": "D",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "ESTIVADOR-PT"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q08",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 8,
+      "discipline": "Língua Portuguesa",
+      "scope": "Língua Portuguesa",
+      "topic": "Questão real de Língua Portuguesa",
+      "stem": "\"Os chalés das instituições sociais estão decorados com bandeiras e cores que remetem à Itália...\" Identifique a alternativa que apresenta os vocábulos escritos corretamente com 'ch', assim como o destacado no texto:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "chique, cheio, chícara."
+        },
+        {
+          "letter": "B",
+          "text": "chacota, chamar, cheretar."
+        },
+        {
+          "letter": "C",
+          "text": "chacina, chamego, chateado."
+        },
+        {
+          "letter": "D",
+          "text": "champu, chaveco, chilofone. Matemática"
+        }
+      ],
+      "correct": "C",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "ESTIVADOR-PT"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q09",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 9,
+      "discipline": "Matemática",
+      "scope": "Matemática",
+      "topic": "Questão real de Matemática",
+      "stem": "Júlio, um empreendedor no setor de agroturismo, possuía um saldo de R$15.800,00 em sua conta destinada a investimentos na expansão de sua fazenda para receber turistas. Após adquirir novos equipamentos e realizar melhorias na infraestrutura para os visitantes, o saldo em sua conta foi reduzido para R$9.450,00. Com base nisso, qual foi o valor investido na expansão?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "R$6.500,00"
+        },
+        {
+          "letter": "B",
+          "text": "R$6.350,00"
+        },
+        {
+          "letter": "C",
+          "text": "R$6.200,00"
+        },
+        {
+          "letter": "D",
+          "text": "R$5.800,00"
+        }
+      ],
+      "correct": "B",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q10",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 10,
+      "discipline": "Matemática",
+      "scope": "Matemática",
+      "topic": "Questão real de Matemática",
+      "stem": "Em uma loja de brinquedos, um carrinho de controle remoto está sendo vendido por R$120,00. Com a aproximação do Dia das Crianças, o preço do carrinho será reajustado com um aumento de 15%. Qual será o novo preço do carrinho após esse aumento?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "R$140,00."
+        },
+        {
+          "letter": "B",
+          "text": "R$132,00."
+        },
+        {
+          "letter": "C",
+          "text": "R$135,00."
+        },
+        {
+          "letter": "D",
+          "text": "R$138,00. <PARSED TEXT FOR PAGE: 5 / 13>"
+        }
+      ],
+      "correct": "D",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q11",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 11,
+      "discipline": "Matemática",
+      "scope": "Matemática",
+      "topic": "Questão real de Matemática",
+      "stem": "Em um consultório odontológico, o dentista possui 215 pacientes que precisam agendar consultas de retorno para acompanhamento. Cada dia de atendimento no consultório permite agendar até 18 pacientes. Sabendo disso, qual é o número mínimo de dias necessários para que o dentista atenda todos os 215 pacientes?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "11."
+        },
+        {
+          "letter": "B",
+          "text": "14."
+        },
+        {
+          "letter": "C",
+          "text": "12."
+        },
+        {
+          "letter": "D",
+          "text": "13."
+        }
+      ],
+      "correct": "C",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q12",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 12,
+      "discipline": "Matemática",
+      "scope": "Matemática",
+      "topic": "Questão real de Matemática",
+      "stem": "Em uma loja de eletrônicos, o produto A entra em promoção a cada 4 dias, o produto B a cada 6 dias, e o produto C a cada 9 dias. No dia 1º de fevereiro, os três produtos entraram em promoção no mesmo dia. Após quantos dias os três produtos voltarão a entrar em promoção juntos novamente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "36 dias."
+        },
+        {
+          "letter": "B",
+          "text": "40 dias."
+        },
+        {
+          "letter": "C",
+          "text": "32 dias."
+        },
+        {
+          "letter": "D",
+          "text": "42 dias."
+        }
+      ],
+      "correct": "A",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q13",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 13,
+      "discipline": "Matemática",
+      "scope": "Matemática",
+      "topic": "Questão real de Matemática",
+      "stem": "Em um supermercado, a quantidade total de produtos vendidos em um dia foi de 2.520. O gerente decidiu verificar a fatoração desse número em fatores primos para organizar a reposição de estoques. Com base nisso, a fatoração do número 2.520 possui um produto entre quantos números primos distintos?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "4."
+        },
+        {
+          "letter": "B",
+          "text": "6."
+        },
+        {
+          "letter": "C",
+          "text": "5."
+        },
+        {
+          "letter": "D",
+          "text": "3."
+        }
+      ],
+      "correct": "A",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q14",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 14,
+      "discipline": "Matemática",
+      "scope": "Matemática",
+      "topic": "Questão real de Matemática",
+      "stem": "Em um centro esportivo, para se alugar uma quadra de futsal, paga-se uma taxa fixa de R$10,00, acrescida de R$5,00 por cada hora de uso. Um grupo de amigos pagou R$35,00 pelo aluguel da quadra. Por quanto tempo eles usaram a quadra?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "4 horas."
+        },
+        {
+          "letter": "B",
+          "text": "7 horas."
+        },
+        {
+          "letter": "C",
+          "text": "6 horas."
+        },
+        {
+          "letter": "D",
+          "text": "5 horas."
+        }
+      ],
+      "correct": "D",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q15",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 15,
+      "discipline": "Matemática",
+      "scope": "Matemática",
+      "topic": "Questão real de Matemática",
+      "stem": "Uma família está planejando uma viagem de carro, que inicialmente levaria 12 horas para ser concluída, dirigindo a uma média de 80 km/h. No entanto, devido a um imprevisto, eles precisam concluir a viagem em 8 horas. Qual deve ser a nova velocidade média, em km/h, para que consigam completar a viagem no novo prazo?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "54 km/h."
+        },
+        {
+          "letter": "B",
+          "text": "120 km/h."
+        },
+        {
+          "letter": "C",
+          "text": "90 km/h."
+        },
+        {
+          "letter": "D",
+          "text": "100 km/h."
+        }
+      ],
+      "correct": "B",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q16",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 16,
+      "discipline": "Matemática",
+      "scope": "Matemática",
+      "topic": "Questão real de Matemática",
+      "stem": "Em uma obra de construção civil, foi necessário calcular o comprimento total de 12 tubos de aço que serão instalados em um sistema hidráulico. Cada tubo possui um comprimento de 2500 mm. Para otimizar o processo de instalação, os engenheiros querem saber qual será o comprimento total desses tubos, caso sejam colocados em fila, expressando o valor em metros. Qual é o comprimento total dos 12 tubos em fila, em metros?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "3 metros."
+        },
+        {
+          "letter": "B",
+          "text": "0,3 metros."
+        },
+        {
+          "letter": "C",
+          "text": "30 metros."
+        },
+        {
+          "letter": "D",
+          "text": "300 metros. Noções Básica de Língua Inglesa O texto seguinte servirá de base para responder às questões de 17 a 21. Ship carrying explosive fertiliser heads to UK waters A Maltese-flagged cargo ship carrying thousands of tonnes of potentially explosive fertiliser is set to travel through UK waters. Ruby, which was earlier accompanied by an escort tug, has reportedly been rejected by several countries due to its cargo. The ship, which has 20,000 tonnes of ammonium nitrate on board, was previously damaged but deemed seaworthy by authorities in Norway. HM Coastguard is in contact with the vessel, which according to ship tracking data, was in the North Sea off the Kent coast on Thursday morning. The ship, owned by Maltese firm Ruby Enterprise, set off from the northern Russian port of Kandalaksha in July. The national maritime emergency service said it will monitor the ship's progress as it heads towards and through UK waters. <PARSED TEXT FOR PAGE: 6 / 13> Vessels are not required to ask permission to travel through UK territorial waters for legitimate purposes. An escorting tug, Amber II, which had sailed with the boat from Norway, left the Ruby on Thursday morning and sailed east. Its current destination is listed as Rotterdam, in the Netherlands. Though there is no suggestion of immediate danger from the cargo, the same chemical caused a devastating blast at a Beirut warehouse in 2020. Ammonium nitrate is regularly transported around the world and used as fertiliser but is also used in explosives. The ship is carrying seven times the amount of ammonium nitrate that caused the Beirut explosion. Ruby's location on Thursday, according to Marine Traffic. Marine Traffic data suggested the ship was in the North Sea on Thursday. Soon after departing Russia, the Ruby briefly ran aground after reportedly encountering a storm. It then continued its journey around the Kola Peninsula and docked in Tromsø, Norway. Norway's Maritime Authority told the BBC the vessel was inspected by DNV Group to ensure it met safety and environmental standards. The group found damage to its hull, propeller and rudder, but the Ruby was still deemed \"seaworthy\". As a precaution, DNV Group, and the Maltese flag registry, insisted that a tug escort the vessel for the remainder of its journey. The ship was bound for Klaipeda, in Lithuania, according to ship tracking firm MarineTraffic. But despite being deemed seaworthy, the ship was denied entry to Klaipeda. Algia Latakas, the port authority's chief executive, told the BBC that this was \"because of its cargo\". Andrea Sella, professor of chemistry at University College London, said the cargo was not high risk, unless there was a fire on board. \"While I understand the caution of the authorities in Troms, I suspect that the chances of a similar disaster to Beirut are relatively modest,\" she said. She added: \"It would also be interesting to know what the nature of the repairs might be as clearly welding might significantly raise the potential fire risk.\" Other reports suggested Sweden had imposed a ban as well, but Sweden's transport agency denies this. \"What the Swedish authorities did was to follow the matter in case we would have needed to act in some way,\" a spokesperson told the BBC. In recent weeks, the Ruby travelled south along Norway's coast and through the North Sea. The ship reportedly has had restricted manoeuvrability, though the BBC has been unable to confirm this. On 25 September, it anchored about 15 miles (25km) north east of Margate, in Kent, near the Dover Strait - one of the world's busiest waterways. The Maritime and Coastguard Agency (MCA) said the vessel is \"currently securely anchored outside UK territorial waters waiting for appropriate conditions to refuel at sea before passing through the English Channel\". Refuelling at sea is a common practice and will take place in accordance with safety procedures and in favourable weather, said the MCA. Its current destination is listed as Marsaxlokk, in Malta. But Maltese authorities have told local media that the ship can only enter the country if it empties its cargo beforehand. Marco Forgione, director general of the Chartered Institute of Export & International Trade, raised concerns about potential \"environmental damage\". \"Should the ammonium nitrate start to leak out of the ship and contaminate the sea... shipping through the channel would have to be diverted to avoid further shifting the pollution through its waters,\" he said. He added that damage as a result of the potential scenario would be \"immense\" and cause \"ongoing disruption\". The vessel has appropriate safety certificates approved by the vessel's flag state and is able to make its own way, said the MCA. https://www.bbc.com/news/articles/c62g95721leo"
+        }
+      ],
+      "correct": "C",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q17",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 17,
+      "discipline": "Língua Inglesa",
+      "scope": "Língua Inglesa",
+      "topic": "Questão real de Língua Inglesa",
+      "stem": "Why was the ship Ruby initially escorted by a tug?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The tug was necessary due to damage sustained during its journey."
+        },
+        {
+          "letter": "B",
+          "text": "The Ruby is transporting a dangerous cargo and required assistance."
+        },
+        {
+          "letter": "C",
+          "text": "The escort was needed because the ship had lost communication with authorities."
+        },
+        {
+          "letter": "D",
+          "text": "The tug was there to ensure that the Ruby would refuel safely."
+        }
+      ],
+      "correct": "A",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "ESTIVADOR-EN"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q18",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 18,
+      "discipline": "Língua Inglesa",
+      "scope": "Língua Inglesa",
+      "topic": "Questão real de Língua Inglesa",
+      "stem": "Which statement best describes the condition of the Ruby when it was inspected in Norway?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The ship had major damages that required immediate repair."
+        },
+        {
+          "letter": "B",
+          "text": "The ship was deemed unseaworthy and could not continue its journey."
+        },
+        {
+          "letter": "C",
+          "text": "The Ruby was completely free of damage and allowed to continue its journey without any conditions. <PARSED TEXT FOR PAGE: 7 / 13>"
+        },
+        {
+          "letter": "D",
+          "text": "Despite sustaining some damage, the ship was considered seaworthy."
+        }
+      ],
+      "correct": "D",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "ESTIVADOR-EN"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q19",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 19,
+      "discipline": "Língua Inglesa",
+      "scope": "Língua Inglesa",
+      "topic": "Questão real de Língua Inglesa",
+      "stem": "What environmental concern was raised by Marco Forgione regarding the Ruby?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The ship's refueling operation could cause an oil spill."
+        },
+        {
+          "letter": "B",
+          "text": "The ship's movements could disturb marine life in the English Channel."
+        },
+        {
+          "letter": "C",
+          "text": "The ship's crew might dump waste illegally into the sea."
+        },
+        {
+          "letter": "D",
+          "text": "A potential ammonium nitrate leak could cause significant pollution in the water."
+        }
+      ],
+      "correct": "D",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "ESTIVADOR-EN"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q20",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 20,
+      "discipline": "Língua Inglesa",
+      "scope": "Língua Inglesa",
+      "topic": "Questão real de Língua Inglesa",
+      "stem": "What caused the authorities in Klaipeda, Lithuania, to deny entry to the Ruby?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Damage to the ship's hull and propeller."
+        },
+        {
+          "letter": "B",
+          "text": "The fact that the ship was carrying a large quantity of ammonium nitrate."
+        },
+        {
+          "letter": "C",
+          "text": "A legal dispute over the ownership of the cargo."
+        },
+        {
+          "letter": "D",
+          "text": "The risk of environmental pollution from leaking fuel."
+        }
+      ],
+      "correct": "B",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "ESTIVADOR-EN"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q21",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 21,
+      "discipline": "Língua Inglesa",
+      "scope": "Língua Inglesa",
+      "topic": "Questão real de Língua Inglesa",
+      "stem": "What is the main concern regarding the Ruby cargo ship as it travels through UK waters?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The ship's size might cause traffic disruptions."
+        },
+        {
+          "letter": "B",
+          "text": "The ship has been denied entry to multiple countries because of its damaged hull."
+        },
+        {
+          "letter": "C",
+          "text": "The ammonium nitrate on board could pose an explosive risk."
+        },
+        {
+          "letter": "D",
+          "text": "The ship's engine is malfunctioning, making it difficult to navigate."
+        }
+      ],
+      "correct": "C",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024",
+      "contextId": "ESTIVADOR-EN"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q22",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 22,
+      "discipline": "Língua Inglesa",
+      "scope": "Língua Inglesa",
+      "topic": "Questão real de Língua Inglesa",
+      "stem": "In maritime terminology, what do the terms starboard and port refer to?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The front and back of the ship, respectively."
+        },
+        {
+          "letter": "B",
+          "text": "The top and bottom of the ship, respectively."
+        },
+        {
+          "letter": "C",
+          "text": "The left and right sides of the ship, respectively."
+        },
+        {
+          "letter": "D",
+          "text": "The right and left sides of the ship, respectively."
+        }
+      ],
+      "correct": "D",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q23",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 23,
+      "discipline": "Língua Inglesa",
+      "scope": "Língua Inglesa",
+      "topic": "Questão real de Língua Inglesa",
+      "stem": "Read the dialogue below: Supervisor: Make sure the crane is ready for the container unloading. The cargo manifest shows we have 50 containers arriving today. Dockworker: Understood. We'll start as soon as the ship finishes berthing at the quay. Supervisor: Also, double-check the gangway. We need it in place for safe crew access once the ship is docked. Dockworker: Sure thing. The stevedoring team is on standby for unloading, and the containers will be moved to the warehouse afterward. Supervisor: Great. Keep an eye on the draught of the ship as well; we don't want any issues with the water depth during unloading. Dockworker: Will do! I'll make sure everything goes smoothly once the customs clearance is done. Which of the following terms refers to the process of checking a ship's cargo to ensure it complies with legal regulations before it can be unloaded?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Stevedoring"
+        },
+        {
+          "letter": "B",
+          "text": "Customs clearance"
+        },
+        {
+          "letter": "C",
+          "text": "Draught"
+        },
+        {
+          "letter": "D",
+          "text": "Berthing Informática Básica"
+        }
+      ],
+      "correct": "B",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q32",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 32,
+      "discipline": "Legislação Portuária",
+      "scope": "Legislação Portuária",
+      "topic": "Lei 9.719/1998 — escalação eletrônica",
+      "stem": "Segundo a Lei nº 9.719/1998, como deve ser realizada a escalação de trabalhadores portuários avulsos?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A escalação é feita exclusivamente de forma presencial, no porto."
+        },
+        {
+          "letter": "B",
+          "text": "Os trabalhadores portuários avulsos devem ser escolhidos aleatoriamente pelos operadores portuários."
+        },
+        {
+          "letter": "C",
+          "text": "A escalação é realizada apenas quando houver eventos extraordinários no porto."
+        },
+        {
+          "letter": "D",
+          "text": "A escalação deve ser feita por meio eletrônico, garantindo que o trabalhador possa se habilitar remotamente."
+        }
+      ],
+      "correct": "D",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q36",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 36,
+      "discipline": "Legislação Portuária",
+      "scope": "Legislação Portuária",
+      "topic": "Lei 9.719/1998 — segurança do trabalho",
+      "stem": "Maria, uma trabalhadora portuária, sofreu um acidente de trabalho devido à falta de sinalização adequada no cais. Ela se questiona sobre as responsabilidades do empregador segundo a Lei nº 9.719/1998. Qual das alternativas descreve corretamente a proteção ao trabalhador portuário?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A Lei delega a responsabilidade pelos acidentes ao trabalhador, caso ele não tenha experiência suficiente."
+        },
+        {
+          "letter": "B",
+          "text": "A Lei isenta os operadores portuários de responsabilidade em acidentes quando o trabalhador não reporta o risco."
+        },
+        {
+          "letter": "C",
+          "text": "A Lei não menciona explicitamente a responsabilidade dos operadores portuários em casos de acidentes."
+        },
+        {
+          "letter": "D",
+          "text": "A Lei prevê que todos os operadores portuários devem garantir condições adequadas de segurança no trabalho."
+        }
+      ],
+      "correct": "D",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q38",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 38,
+      "discipline": "Legislação Portuária",
+      "scope": "Legislação Portuária",
+      "topic": "Lei 12.815/2013 — porto organizado",
+      "stem": "Qual é a definição de \"porto organizado\" de acordo com a Lei nº 12.815/2013?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "É um porto cuja exploração e operação são realizadas exclusivamente por empresas estrangeiras."
+        },
+        {
+          "letter": "B",
+          "text": "É um porto que funciona apenas com trabalhadores permanentes."
+        },
+        {
+          "letter": "C",
+          "text": "É um porto de pequeno porte que opera sem regulamentação específica."
+        },
+        {
+          "letter": "D",
+          "text": "É um porto que possui instalações e infraestrutura pública, sob a administração da União."
+        }
+      ],
+      "correct": "D",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q39",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 39,
+      "discipline": "Legislação Portuária",
+      "scope": "Legislação Portuária",
+      "topic": "Lei 12.815/2013 — exploração direta e indireta",
+      "stem": "João, um trabalhador portuário avulso, está desempenhando suas atividades em um porto organizado. Durante uma reunião, um colega menciona que a Lei nº 12.815/2013 regula a exploração direta e indireta de portos pela União. João, curioso, pergunta qual o papel da União em relação aos portos organizados. Qual das opções abaixo está correta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A União pode explorar diretamente ou delegar a exploração dos portos organizados a concessionárias ou permissionárias."
+        },
+        {
+          "letter": "B",
+          "text": "A União apenas supervisiona a administração dos portos, sem interferir diretamente. <PARSED TEXT FOR PAGE: 10 / 13>"
+        },
+        {
+          "letter": "C",
+          "text": "A União não possui qualquer papel na exploração de portos, sendo responsabilidade exclusiva dos estados."
+        },
+        {
+          "letter": "D",
+          "text": "A União somente pode delegar a exploração dos portos, mas não explorá-los diretamente."
+        }
+      ],
+      "correct": "A",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q41",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 41,
+      "discipline": "Conhecimentos Específicos",
+      "scope": "Conhecimentos Específicos",
+      "topic": "NR-35 — trabalho em altura",
+      "stem": "A Norma Regulamentadora NR-35 implanta os requisitos mínimos de proteção para o trabalho em altura, que é definido como qualquer atividade executada acima de 2 metros do nível inferior, onde haja risco de queda. A NR-35 abrange desde o planejamento e organização do trabalho até a capacitação dos trabalhadores envolvidos, além de especificar a obrigatoriedade de EPIs adequados e a implementação de medidas de segurança. Com base na NR-35, avalie as alternativas a seguir sobre os requisitos para trabalho em altura.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A NR-35 recomenda, mas não obriga, o uso de dispositivos de proteção coletiva, como guarda-corpos e redes de proteção, desde que os EPIs fornecidos atendam às especificações de segurança do fabricante."
+        },
+        {
+          "letter": "B",
+          "text": "Segundo a NR-35, a utilização de sistemas de ancoragem é opcional e aplicada apenas em situações de risco extremo, sendo substituível por cordas de segurança em atividades de curta duração."
+        },
+        {
+          "letter": "C",
+          "text": "A norma permite que a inspeção dos equipamentos de segurança, como cintos de segurança e trava-quedas, seja realizada apenas pelo próprio trabalhador antes do uso, não sendo necessário um responsável técnico para verificar periodicamente esses itens."
+        },
+        {
+          "letter": "D",
+          "text": "A NR-35 exige que todos os trabalhadores que executam tarefas em altura sejam capacitados com treinamentos periódicos, incluindo exercícios práticos de resgate e simulações de emergências, para garantir a segurança em caso de acidentes."
+        }
+      ],
+      "correct": "D",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q42",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 42,
+      "discipline": "Conhecimentos Específicos",
+      "scope": "Conhecimentos Específicos",
+      "topic": "NR-29 — segurança e emergência",
+      "stem": "A NR-29 desempenha um papel essencial na regulamentação das condições de trabalho no ambiente portuário, abordando desde as práticas de movimentação de cargas até o uso adequado de equipamentos de proteção. A norma busca estabelecer padrões para evitar acidentes, preservar a saúde dos trabalhadores e assegurar a integridade das operações em um contexto de riscos elevados. Além de definir protocolos para o manuseio seguro de cargas perigosas, a NR-29 também estabelece procedimentos específicos de emergência e resgate que devem ser seguidos rigorosamente. Sobre o assunto, julgue as seguintes afirmações como verdadeiras (V) ou falsas (F): (__)De acordo com a NR-29, os procedimentos de resgate em áreas portuárias devem incluir simulados periódicos obrigatórios com todos os trabalhadores, independentemente do cargo, garantindo que todos conheçam as rotas de fuga e o uso correto dos equipamentos de resgate, como coletes e botes <PARSED TEXT FOR PAGE: 11 / 13> salva-vidas. (__)A NR-29 permite que a movimentação de cargas perigosas ocorra sem supervisão direta de um técnico de segurança, desde que os trabalhadores recebam instruções gerais sobre o manuseio de tais cargas no início do turno, dispensando a presença constante de supervisores especializados durante a operação. (__)A norma exige que as áreas de operação portuária estejam devidamente sinalizadas, incluindo a demarcação de zonas de risco e rotas de emergência, para prevenir acidentes e orientar o fluxo de pessoas e veículos dentro dos limites operacionais estabelecidos. Assinale a alternativa cuja respectiva ordem de julgamento está correta:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "F − F − F."
+        },
+        {
+          "letter": "B",
+          "text": "V − F − F."
+        },
+        {
+          "letter": "C",
+          "text": "V − V − V."
+        },
+        {
+          "letter": "D",
+          "text": "F − F − V."
+        }
+      ],
+      "correct": "D",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q43",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 43,
+      "discipline": "Conhecimentos Específicos",
+      "scope": "Conhecimentos Específicos",
+      "topic": "NR-35 — análise de risco e capacitação",
+      "stem": "As atividades em altura apresentam riscos significativos que exigem um rigoroso cumprimento das normas de segurança para prevenir acidentes e proteger a vida dos trabalhadores. A NR-35 estabelece diretrizes que abrangem desde o planejamento do trabalho até a utilização de equipamentos de segurança e a capacitação obrigatória dos profissionais envolvidos. A norma detalha responsabilidades tanto dos empregadores quanto dos trabalhadores, incluindo procedimentos de emergência e resgate em caso de queda. Avalie as proposições a seguir para verificar a conformidade com as exigências da NR-35. I.A NR-35 exige que todo trabalho em altura seja precedido de uma análise de risco detalhada, com a identificação dos perigos, definição de medidas preventivas, e a capacitação obrigatória de todos os trabalhadores, garantindo que saibam como utilizar os sistemas de proteção individual e coletiva. II.De acordo com a NR-35, os sistemas de ancoragem e dispositivos de segurança são opcionais, podendo ser substituídos por monitoramento constante do trabalhador por um supervisor, desde que o local de trabalho não exceda a altura de 3 metros. III.A norma determina que em caso de acidentes em atividades de altura, os empregadores devem implementar procedimentos de resgate rápido e adequado, assegurando que os trabalhadores feridos sejam socorridos com a devida rapidez e que todos os envolvidos tenham treinamento específico em primeiros socorros. Assinale a alternativa correta:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Apenas a proposição II está correta."
+        },
+        {
+          "letter": "B",
+          "text": "Apenas as proposições II e III estão corretas."
+        },
+        {
+          "letter": "C",
+          "text": "Apenas a proposição I está correta."
+        },
+        {
+          "letter": "D",
+          "text": "Apenas a proposição III está correta."
+        }
+      ],
+      "correct": "C",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q44",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 44,
+      "discipline": "Conhecimentos Específicos",
+      "scope": "Conhecimentos Específicos",
+      "topic": "NR-06 — validade e fornecimento de EPI",
+      "stem": "A NR-6 estabelece as obrigações dos empregadores e empregados quanto ao uso, fornecimento, manutenção, e supervisão dos Equipamentos de Proteção Individual (EPIs) no ambiente de trabalho. A norma visa garantir que os EPIs sejam adequados aos riscos presentes nas atividades laborais e que sejam utilizados corretamente para proteger a saúde e a segurança dos trabalhadores. Além disso, os EPIs devem ser certificados e inspecionados regularmente para garantir sua eficácia. Julgue as seguintes afirmações sobre as exigências da NR-6. Sobre o assunto, julgue as seguintes afirmações como verdadeiras (V) ou falsas (F): (__)A NR-6 permite o uso de EPIs que estejam fora do prazo de validade, desde que os equipamentos não apresentem desgaste visível e que sejam aprovados em inspeções de rotina realizadas pelo empregador. (__)De acordo com a NR-6, o empregador pode optar por não fornecer EPIs aos trabalhadores em situações onde as medidas de proteção coletiva são suficientes, mesmo que os trabalhadores estejam expostos a riscos residuais. (__)A NR-6 exige que todos os EPIs utilizados pelos trabalhadores possuam o Certificado de Aprovação (CA) emitido pelo Ministério do Trabalho, comprovando que o equipamento atende aos padrões técnicos de segurança estabelecidos pela legislação. Assinale a alternativa cuja respectiva ordem de julgamento está correta:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "F − F − V."
+        },
+        {
+          "letter": "B",
+          "text": "F − F − F."
+        },
+        {
+          "letter": "C",
+          "text": "V − F − F."
+        },
+        {
+          "letter": "D",
+          "text": "V − V − V."
+        }
+      ],
+      "correct": "A",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q45",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 45,
+      "discipline": "Conhecimentos Específicos",
+      "scope": "Conhecimentos Específicos",
+      "topic": "NR-06 — fornecimento e CA",
+      "stem": "A Norma Regulamentadora NR-6 ordena diretrizes para o uso de Equipamentos de Proteção Individual (EPIs) nos ambientes de trabalho, visando proteger a saúde e a integridade física dos trabalhadores. A norma define os tipos de EPIs obrigatórios para diversas atividades, as responsabilidades dos empregadores no fornecimento, e os direitos dos empregados quanto à utilização desses equipamentos. A correta aplicação da NR-6 é essencial para minimizar os riscos de acidentes e doenças ocupacionais, garantindo um ambiente de trabalho seguro. Sobre o assunto, julgue as seguintes afirmações como verdadeiras (V) ou falsas (F): (__)A NR-6 obriga o empregador a fornecer EPIs gratuitamente apenas para atividades consideradas de alto risco, enquanto para riscos moderados, o custo pode ser dividido com o empregado. <PARSED TEXT FOR PAGE: 12 / 13> (__)De acordo com a NR-6, é responsabilidade exclusiva do trabalhador inspecionar, higienizar e conservar os EPIs fornecidos, cabendo ao empregador apenas disponibilizar os equipamentos. (__)A NR-6 determina que os EPIs fornecidos aos trabalhadores devem possuir o Certificado de Aprovação (CA) do Ministério do Trabalho, assegurando que atendem aos padrões de qualidade e segurança exigidos. Assinale a alternativa cuja respectiva ordem de julgamento está correta:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "F − F − V."
+        },
+        {
+          "letter": "B",
+          "text": "V − F − F."
+        },
+        {
+          "letter": "C",
+          "text": "F − F − F."
+        },
+        {
+          "letter": "D",
+          "text": "V − V − V."
+        }
+      ],
+      "correct": "A",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    },
+    {
+      "id": "IDCAP-ESTIVADOR-2024-Q48",
+      "exam": "OGMO Paranaguá 2024 — Estivador",
+      "date": "2024",
+      "questionNumber": 48,
+      "discipline": "Conhecimentos Específicos",
+      "scope": "Conhecimentos Específicos",
+      "topic": "NR-29 — EPI, inspeção e emergência",
+      "stem": "A NR-29 define diretrizes para a segurança e saúde dos trabalhadores que atuam no setor portuário, abordando medidas preventivas, procedimentos de emergência e o uso adequado de EPIs para minimizar os riscos ocupacionais. A norma é essencial para garantir que as operações portuárias sejam realizadas de forma segura, preservando a integridade física dos trabalhadores e prevenindo acidentes graves. A correta aplicação das exigências da NR-29 é fundamental para um ambiente de trabalho seguro e em conformidade com a legislação vigente. Assim, avalie as proposições: I.A NR-29 exige que todos os trabalhadores portuários usem equipamentos de proteção individual, como capacetes e coletes salva-vidas, durante atividades de movimentação de cargas e operações em locais próximos à água. II.Segundo a NR-29, a inspeção de segurança nas áreas de operação portuária deve ser realizada exclusivamente pelo empregador, sem necessidade de envolvimento dos trabalhadores ou de comissões de segurança na avaliação dos riscos. <PARSED TEXT FOR PAGE: 13 / 13> III.A NR-29 determina que, em caso de emergência, devem ser implementados procedimentos de evacuação imediata e acionamento de equipes de resposta rápida para socorro e controle da situação. Assinale a alternativa correta:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Apenas a proposição II está correta."
+        },
+        {
+          "letter": "B",
+          "text": "Apenas as proposições I e III estão corretas."
+        },
+        {
+          "letter": "C",
+          "text": "Apenas a proposição III está correta."
+        },
+        {
+          "letter": "D",
+          "text": "Apenas as proposições II e III estão corretas."
+        }
+      ],
+      "correct": "B",
+      "sourceName": "Prova IDCAP/OGMO Paranaguá 2024"
+    }
+  ]
+}
