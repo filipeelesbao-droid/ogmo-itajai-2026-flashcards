@@ -239,7 +239,10 @@ function renderIdcap(){
 function renderIdcapCard(x){
   const done=!!idcapDone[x.id];
   const safe=(s)=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
-  return '<article class="idcap-card '+(done?"done":"")+'"><div class="idcap-card-top"><div class="idcap-meta"><span class="idcap-chip">'+safe(x.id)+'</span><span class="idcap-chip">'+safe(x.date)+'</span><span class="idcap-chip scope">'+safe(x.scope)+'</span>'+(done?'<span class="idcap-chip done">✓ Resolvida</span>':"")+'</div></div><h3>'+safe(x.exam)+' — '+safe(x.topic)+'</h3><p>'+safe(x.discipline)+' · questão real da prova anterior.</p><div class="idcap-actions"><a href="'+x.questionUrl+'" target="_blank" rel="noopener noreferrer">Abrir questão ↗</a><button class="mark" data-idcap-done="'+safe(x.id)+'">'+(done?"↩ Marcar como não resolvida":"✓ Marcar como resolvida")+'</button></div></article>';
+  const isExamSource=x.sourceType==="exam";
+  const linkLabel=isExamSource?"Abrir prova ↗":"Abrir questão ↗";
+  const note=isExamSource?"questão real da prova anterior · o link abre a prova para localizar o ID.":"questão real da prova anterior.";
+  return '<article class="idcap-card '+(done?"done":"")+'"><div class="idcap-card-top"><div class="idcap-meta"><span class="idcap-chip">'+safe(x.id)+'</span><span class="idcap-chip">'+safe(x.date)+'</span><span class="idcap-chip scope">'+safe(x.scope)+'</span>'+(done?'<span class="idcap-chip done">✓ Resolvida</span>':"")+'</div></div><h3>'+safe(x.exam)+' — '+safe(x.topic)+'</h3><p>'+safe(x.discipline)+' · '+note+'</p><div class="idcap-actions"><a href="'+x.questionUrl+'" target="_blank" rel="noopener noreferrer">'+linkLabel+'</a><button class="mark" data-idcap-done="'+safe(x.id)+'">'+(done?"↩ Marcar como não resolvida":"✓ Marcar como resolvida")+'</button></div></article>';
 }
 function toggleIdcapDone(id){if(idcapDone[id])delete idcapDone[id];else idcapDone[id]=true;saveIdcap();renderIdcap();toast(idcapDone[id]?"Questão marcada como resolvida":"Questão reaberta")}
 function openNextIdcap(){
